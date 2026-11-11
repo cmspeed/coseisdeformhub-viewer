@@ -160,7 +160,11 @@
           "track": "092",
           "orbit_direction": "ascending",
           "date_range": "20141210 - 20141023",
-          "description": "Ascending Track 092"
+          "description": "Ascending Track 092",
+          "contains_events": [
+            "usc000t4iq",
+            "usc000t49v"
+          ]
         },
         {
           "dataset_id": "m_66_22_km_ese_of_punta_de_burica_panama-D011",
@@ -170,7 +174,11 @@
           "track": "011",
           "orbit_direction": "descending",
           "date_range": "20141217 - 20141123",
-          "description": "Descending Track 011"
+          "description": "Descending Track 011",
+          "contains_events": [
+            "usc000t4iq",
+            "usc000t49v"
+          ]
         },
         {
           "dataset_id": "m_66_22_km_ese_of_punta_de_burica_panama-D084",
@@ -180,7 +188,10 @@
           "track": "084",
           "orbit_direction": "descending",
           "date_range": "20141222 - 20141128",
-          "description": "Descending Track 084"
+          "description": "Descending Track 084",
+          "contains_events": [
+            "usc000t4iq"
+          ]
         }
       ],
       "metadata": {
@@ -188,7 +199,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000t4iq",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "usc000t49v",
+          "name": "M 6.0 - 15 km ESE of Punta de Burica, Panama",
+          "magnitude": 6,
+          "time": "2014-12-06 17:21:49 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -39.6,
+          "distance_km": 7,
+          "epicenter": {
+            "lat": 7.9824,
+            "lon": -82.7339
+          },
+          "depth_km": 15,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000t49v",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "usc000taik",
@@ -460,7 +489,12 @@
           "track": "069",
           "orbit_direction": "ascending",
           "date_range": "20150502 - 20150408",
-          "description": "Ascending Track 069"
+          "description": "Ascending Track 069",
+          "contains_events": [
+            "us200027ps",
+            "us200027rt",
+            "us200027ru"
+          ]
         },
         {
           "dataset_id": "m_64_75_km_wsw_of_yonakuni_japan-D105",
@@ -470,7 +504,12 @@
           "track": "105",
           "orbit_direction": "descending",
           "date_range": "20150422 - 20150329",
-          "description": "Descending Track 105"
+          "description": "Descending Track 105",
+          "contains_events": [
+            "us200027ps",
+            "us200027rt",
+            "us200027ru"
+          ]
         }
       ],
       "metadata": {
@@ -478,7 +517,42 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us200027ps",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us200027rt",
+          "name": "M 6.0 - 69 km SW of Yonakuni, Japan",
+          "magnitude": 6,
+          "time": "2015-04-20 11:45:13 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 10.0,
+          "distance_km": 19,
+          "epicenter": {
+            "lat": 24.0851,
+            "lon": 122.453
+          },
+          "depth_km": 29,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us200027rt",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us200027ru",
+          "name": "M 6.1 - 72 km SW of Yonakuni, Japan",
+          "magnitude": 6.1,
+          "time": "2015-04-20 12:00:00 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 10.3,
+          "distance_km": 22,
+          "epicenter": {
+            "lat": 24.0471,
+            "lon": 122.4532
+          },
+          "depth_km": 29,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us200027ru",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6.1 vs M6.4); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us20002926",
@@ -505,7 +579,12 @@
           "track": "012",
           "orbit_direction": "ascending",
           "date_range": "20150428 - 20150416",
-          "description": "Ascending Track 012"
+          "description": "Ascending Track 012",
+          "contains_events": [
+            "us20002926",
+            "us20002bi4",
+            "us200029bt"
+          ]
         },
         {
           "dataset_id": "m_78_67_km_nne_of_bharatpur_nepal-A085",
@@ -515,7 +594,13 @@
           "track": "085",
           "orbit_direction": "ascending",
           "date_range": "20150503 - 20150316",
-          "description": "Ascending Track 085"
+          "description": "Ascending Track 085",
+          "contains_events": [
+            "us20002926",
+            "us20002bi4",
+            "us2000292y",
+            "us200029bt"
+          ]
         },
         {
           "dataset_id": "m_78_67_km_nne_of_bharatpur_nepal-A158",
@@ -525,7 +610,11 @@
           "track": "158",
           "orbit_direction": "ascending",
           "date_range": "20150508 - 20150225",
-          "description": "Ascending Track 158"
+          "description": "Ascending Track 158",
+          "contains_events": [
+            "us20002926",
+            "us2000292y"
+          ]
         },
         {
           "dataset_id": "m_78_67_km_nne_of_bharatpur_nepal-D019",
@@ -535,7 +624,13 @@
           "track": "019",
           "orbit_direction": "descending",
           "date_range": "20150429 - 20150417",
-          "description": "Descending Track 019"
+          "description": "Descending Track 019",
+          "contains_events": [
+            "us20002926",
+            "us20002bi4",
+            "us2000292y",
+            "us200029bt"
+          ]
         },
         {
           "dataset_id": "m_78_67_km_nne_of_bharatpur_nepal-D092",
@@ -545,7 +640,10 @@
           "track": "092",
           "orbit_direction": "descending",
           "date_range": "20150504 - 20150422",
-          "description": "Descending Track 092"
+          "description": "Descending Track 092",
+          "contains_events": [
+            "us20002926"
+          ]
         },
         {
           "dataset_id": "m_78_67_km_nne_of_bharatpur_nepal-D121",
@@ -555,7 +653,13 @@
           "track": "121",
           "orbit_direction": "descending",
           "date_range": "20150506 - 20150424",
-          "description": "Descending Track 121"
+          "description": "Descending Track 121",
+          "contains_events": [
+            "us20002926",
+            "us20002bi4",
+            "us2000292y",
+            "us200029bt"
+          ]
         }
       ],
       "metadata": {
@@ -563,7 +667,57 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002926",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20002bi4",
+          "name": "M 6.1 - 0 km NNW of Dhulikhel, Nepal",
+          "magnitude": 6.1,
+          "time": "2015-04-25 06:15:22 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.1,
+          "distance_km": 104,
+          "epicenter": {
+            "lat": 27.6285,
+            "lon": 85.5398
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002bi4",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us2000292y",
+          "name": "M 6.6 - 71 km NNE of Bharatpur, Nepal",
+          "magnitude": 6.6,
+          "time": "2015-04-25 06:45:21 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.6,
+          "distance_km": 9,
+          "epicenter": {
+            "lat": 28.2244,
+            "lon": 84.8216
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000292y",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us200029bt",
+          "name": "M 6.7 - 21 km SSE of Kod\u0101ri\u0307\u0304, Nepal",
+          "magnitude": 6.7,
+          "time": "2015-04-26 07:09:10 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 25.0,
+          "distance_km": 136,
+          "epicenter": {
+            "lat": 27.7711,
+            "lon": 86.0173
+          },
+          "depth_km": 22.91,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us200029bt",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us20002ag9",
@@ -590,7 +744,12 @@
           "track": "067",
           "orbit_direction": "ascending",
           "date_range": "20150514 - 20150408",
-          "description": "Ascending Track 067"
+          "description": "Ascending Track 067",
+          "contains_events": [
+            "us20002ag9",
+            "us20002dhx",
+            "us20002b1r"
+          ]
         },
         {
           "dataset_id": "m_67_126_km_ssw_of_kokopo_papua_new_guinea-D016",
@@ -600,7 +759,12 @@
           "track": "016",
           "orbit_direction": "descending",
           "date_range": "20150510 - 20150428",
-          "description": "Descending Track 016"
+          "description": "Descending Track 016",
+          "contains_events": [
+            "us20002ag9",
+            "us20002dhx",
+            "us20002b1r"
+          ]
         }
       ],
       "metadata": {
@@ -608,7 +772,41 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002ag9",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20002dhx",
+          "name": "M 6.0 - 134 km SSW of Kokopo, Papua New Guinea",
+          "magnitude": 6,
+          "time": "2015-05-01 08:06:52 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 21.4,
+          "distance_km": 17,
+          "epicenter": {
+            "lat": -5.4912,
+            "lon": 151.8715
+          },
+          "depth_km": 35,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002dhx",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20002b1r",
+          "name": "M 6.0 - 156 km SSW of Kokopo, Papua New Guinea",
+          "magnitude": 6,
+          "time": "2015-05-03 22:32:39 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 83.8,
+          "distance_km": 30,
+          "epicenter": {
+            "lat": -5.6314,
+            "lon": 151.6757
+          },
+          "depth_km": 24,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002b1r",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us20002ejl",
@@ -635,7 +833,11 @@
           "track": "012",
           "orbit_direction": "ascending",
           "date_range": "20150522 - 20150428",
-          "description": "Ascending Track 012"
+          "description": "Ascending Track 012",
+          "contains_events": [
+            "us20002ejl",
+            "us20002ek5"
+          ]
         },
         {
           "dataset_id": "m_73_nepal-A085",
@@ -645,7 +847,11 @@
           "track": "085",
           "orbit_direction": "ascending",
           "date_range": "20150515 - 20150503",
-          "description": "Ascending Track 085"
+          "description": "Ascending Track 085",
+          "contains_events": [
+            "us20002ejl",
+            "us20002ek5"
+          ]
         },
         {
           "dataset_id": "m_73_nepal-D019",
@@ -655,7 +861,11 @@
           "track": "019",
           "orbit_direction": "descending",
           "date_range": "20150604 - 20150511",
-          "description": "Descending Track 019"
+          "description": "Descending Track 019",
+          "contains_events": [
+            "us20002ejl",
+            "us20002ek5"
+          ]
         },
         {
           "dataset_id": "m_73_nepal-D121",
@@ -665,7 +875,11 @@
           "track": "121",
           "orbit_direction": "descending",
           "date_range": "20150518 - 20150506",
-          "description": "Descending Track 121"
+          "description": "Descending Track 121",
+          "contains_events": [
+            "us20002ejl",
+            "us20002ek5"
+          ]
         }
       ],
       "metadata": {
@@ -673,7 +887,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002ejl",
         "pager_alert": "orange"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20002ek5",
+          "name": "M 6.3 - 42 km SSE of Kod\u0101ri\u0307\u0304, Nepal",
+          "magnitude": 6.3,
+          "time": "2015-05-12 07:36:54 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.5,
+          "distance_km": 23,
+          "epicenter": {
+            "lat": 27.625,
+            "lon": 86.1617
+          },
+          "depth_km": 15,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002ek5",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us20002et4",
@@ -1075,7 +1307,19 @@
           "track": "018",
           "orbit_direction": "ascending",
           "date_range": "20150919 - 20150826",
-          "description": "Ascending Track 018"
+          "description": "Ascending Track 018",
+          "contains_events": [
+            "us20003k7a",
+            "us20003k8b",
+            "us20003k7m",
+            "us20003k83",
+            "us20003k7w",
+            "us20003kfj",
+            "us20003kfv",
+            "us20003l5d",
+            "us20003lql",
+            "us20003luw"
+          ]
         },
         {
           "dataset_id": "m_83_48_km_w_of_illapel_chile-A120",
@@ -1085,7 +1329,21 @@
           "track": "120",
           "orbit_direction": "ascending",
           "date_range": "20150926 - 20150902",
-          "description": "Ascending Track 120"
+          "description": "Ascending Track 120",
+          "contains_events": [
+            "us20003k7a",
+            "us20003k8b",
+            "us20003k7m",
+            "us20003k83",
+            "us20003k7w",
+            "us20003kfj",
+            "us20003kfv",
+            "us20003l5d",
+            "us20003lql",
+            "us20003luw",
+            "us20003mcj",
+            "us20003mi0"
+          ]
         },
         {
           "dataset_id": "m_83_48_km_w_of_illapel_chile-D083",
@@ -1095,7 +1353,12 @@
           "track": "083",
           "orbit_direction": "descending",
           "date_range": "20151006 - 20150912",
-          "description": "Descending Track 083"
+          "description": "Descending Track 083",
+          "contains_events": [
+            "us20003k7a",
+            "us20003k7w",
+            "us20003mi0"
+          ]
         },
         {
           "dataset_id": "m_83_48_km_w_of_illapel_chile-D156",
@@ -1105,7 +1368,16 @@
           "track": "156",
           "orbit_direction": "descending",
           "date_range": "20150917 - 20150824",
-          "description": "Descending Track 156"
+          "description": "Descending Track 156",
+          "contains_events": [
+            "us20003k7a",
+            "us20003k8b",
+            "us20003k7m",
+            "us20003k83",
+            "us20003k7w",
+            "us20003kfj",
+            "us20003kfv"
+          ]
         }
       ],
       "metadata": {
@@ -1113,7 +1385,185 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003k7a",
         "pager_alert": "orange"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20003k8b",
+          "name": "M 6.4 - 54 km W of Illapel, Chile",
+          "magnitude": 6.4,
+          "time": "2015-09-16 22:59:15 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.1,
+          "distance_km": 8,
+          "epicenter": {
+            "lat": -31.618,
+            "lon": -71.745
+          },
+          "depth_km": 26.7,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003k8b",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003k7m",
+          "name": "M 6.1 - 55 km WSW of Illapel, Chile",
+          "magnitude": 6.1,
+          "time": "2015-09-16 23:03:56 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.2,
+          "distance_km": 21,
+          "epicenter": {
+            "lat": -31.7502,
+            "lon": -71.7425
+          },
+          "depth_km": 19.1,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003k7m",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003k83",
+          "name": "M 6.1 - 71 km W of Illapel, Chile",
+          "magnitude": 6.1,
+          "time": "2015-09-16 23:16:09 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.4,
+          "distance_km": 23,
+          "epicenter": {
+            "lat": -31.6,
+            "lon": -71.9189
+          },
+          "depth_km": 35,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003k83",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003k7w",
+          "name": "M 7.0 - 25 km WNW of Illapel, Chile",
+          "magnitude": 7,
+          "time": "2015-09-16 23:18:41 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.4,
+          "distance_km": 24,
+          "epicenter": {
+            "lat": -31.5622,
+            "lon": -71.4262
+          },
+          "depth_km": 28.41,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003k7w",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003kfj",
+          "name": "M 6.5 - 54 km WNW of Illapel, Chile",
+          "magnitude": 6.5,
+          "time": "2015-09-17 03:55:15 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 5.0,
+          "distance_km": 17,
+          "epicenter": {
+            "lat": -31.4244,
+            "lon": -71.6876
+          },
+          "depth_km": 27,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003kfj",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003kfv",
+          "name": "M 6.7 - 61 km WNW of Illapel, Chile",
+          "magnitude": 6.7,
+          "time": "2015-09-17 04:10:27 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 5.3,
+          "distance_km": 14,
+          "epicenter": {
+            "lat": -31.5173,
+            "lon": -71.804
+          },
+          "depth_km": 23,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003kfv",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003l5d",
+          "name": "M 6.2 - 92 km NW of Valpara\u00edso, Chile",
+          "magnitude": 6.2,
+          "time": "2015-09-18 09:10:44 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 34.3,
+          "distance_km": 103,
+          "epicenter": {
+            "lat": -32.3681,
+            "lon": -72.2292
+          },
+          "depth_km": 8,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003l5d",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003lql",
+          "name": "M 6.1 - 79 km WNW of Coquimbo, Chile",
+          "magnitude": 6.1,
+          "time": "2015-09-19 05:06:47 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 54.2,
+          "distance_km": 218,
+          "epicenter": {
+            "lat": -29.6411,
+            "lon": -72.077
+          },
+          "depth_km": 6,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003lql",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003luw",
+          "name": "M 6.2 - 79 km W of La Ligua, Chile",
+          "magnitude": 6.2,
+          "time": "2015-09-19 12:52:20 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 62.0,
+          "distance_km": 92,
+          "epicenter": {
+            "lat": -32.3335,
+            "lon": -72.0629
+          },
+          "depth_km": 18,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003luw",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003mcj",
+          "name": "M 6.1 - 54 km W of Illapel, Chile",
+          "magnitude": 6.1,
+          "time": "2015-09-21 05:39:34 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 102.8,
+          "distance_km": 7,
+          "epicenter": {
+            "lat": -31.5757,
+            "lon": -71.7431
+          },
+          "depth_km": 30,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003mcj",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20003mi0",
+          "name": "M 6.6 - 22 km WSW of Illapel, Chile",
+          "magnitude": 6.6,
+          "time": "2015-09-21 17:40:00 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 114.8,
+          "distance_km": 33,
+          "epicenter": {
+            "lat": -31.7275,
+            "lon": -71.3792
+          },
+          "depth_km": 35,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003mi0",
+          "has_own_entry": true
+        }
+      ]
     },
     {
       "event_id": "us20003mi0",
@@ -1140,7 +1590,11 @@
           "track": "018",
           "orbit_direction": "ascending",
           "date_range": "20151001 - 20150919",
-          "description": "Ascending Track 018"
+          "description": "Ascending Track 018",
+          "contains_events": [
+            "us20003mi0",
+            "us20003mcj"
+          ]
         },
         {
           "dataset_id": "m_66_22_km_wsw_of_illapel_chile-D156",
@@ -1150,7 +1604,14 @@
           "track": "156",
           "orbit_direction": "descending",
           "date_range": "20151011 - 20150917",
-          "description": "Descending Track 156"
+          "description": "Descending Track 156",
+          "contains_events": [
+            "us20003mi0",
+            "us20003l5d",
+            "us20003lql",
+            "us20003luw",
+            "us20003mcj"
+          ]
         }
       ],
       "metadata": {
@@ -1158,7 +1619,84 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003mi0",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20003l5d",
+          "name": "M 6.2 - 92 km NW of Valpara\u00edso, Chile",
+          "magnitude": 6.2,
+          "time": "2015-09-18 09:10:44 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -80.5,
+          "distance_km": 107,
+          "epicenter": {
+            "lat": -32.3681,
+            "lon": -72.2292
+          },
+          "depth_km": 8,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003l5d",
+          "has_own_entry": false,
+          "note": "epicentres 107 km apart, beyond the mainshock's rupture length + 30 km"
+        },
+        {
+          "event_id": "us20003lql",
+          "name": "M 6.1 - 79 km WNW of Coquimbo, Chile",
+          "magnitude": 6.1,
+          "time": "2015-09-19 05:06:47 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -60.6,
+          "distance_km": 241,
+          "epicenter": {
+            "lat": -29.6411,
+            "lon": -72.077
+          },
+          "depth_km": 6,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003lql",
+          "has_own_entry": false,
+          "note": "epicentres 241 km apart, beyond the mainshock's rupture length + 30 km"
+        },
+        {
+          "event_id": "us20003luw",
+          "name": "M 6.2 - 79 km W of La Ligua, Chile",
+          "magnitude": 6.2,
+          "time": "2015-09-19 12:52:20 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -52.8,
+          "distance_km": 93,
+          "epicenter": {
+            "lat": -32.3335,
+            "lon": -72.0629
+          },
+          "depth_km": 18,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003luw",
+          "has_own_entry": false,
+          "note": "epicentres 93 km apart, beyond the mainshock's rupture length + 30 km"
+        },
+        {
+          "event_id": "us20003mcj",
+          "name": "M 6.1 - 54 km W of Illapel, Chile",
+          "magnitude": 6.1,
+          "time": "2015-09-21 05:39:34 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -12.0,
+          "distance_km": 38,
+          "epicenter": {
+            "lat": -31.5757,
+            "lon": -71.7431
+          },
+          "depth_km": 30,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003mcj",
+          "has_own_entry": false
+        }
+      ],
+      "included_in": [
+        {
+          "event_id": "us20003k7a",
+          "name": "M 8.3 - 48 km W of Illapel, Chile",
+          "relation": "aftershock",
+          "datasets": 2
+        }
+      ]
     },
     {
       "event_id": "us20003nqr",
@@ -1315,7 +1853,12 @@
           "track": "018",
           "orbit_direction": "ascending",
           "date_range": "20151118 - 20151025",
-          "description": "Ascending Track 018"
+          "description": "Ascending Track 018",
+          "contains_events": [
+            "us10003x9g",
+            "us10003vgi",
+            "us10003x8t"
+          ]
         },
         {
           "dataset_id": "m_69_85_km_nw_of_coquimbo_chile-A120",
@@ -1325,7 +1868,11 @@
           "track": "120",
           "orbit_direction": "ascending",
           "date_range": "20151125 - 20151101",
-          "description": "Ascending Track 120"
+          "description": "Ascending Track 120",
+          "contains_events": [
+            "us10003x9g",
+            "us10003x8t"
+          ]
         },
         {
           "dataset_id": "m_69_85_km_nw_of_coquimbo_chile-D156",
@@ -1335,7 +1882,12 @@
           "track": "156",
           "orbit_direction": "descending",
           "date_range": "20151128 - 20151104",
-          "description": "Descending Track 156"
+          "description": "Descending Track 156",
+          "contains_events": [
+            "us10003x9g",
+            "us10003vgi",
+            "us10003x8t"
+          ]
         }
       ],
       "metadata": {
@@ -1343,7 +1895,42 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10003x9g",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us10003vgi",
+          "name": "M 6.2 - 107 km WNW of Coquimbo, Chile",
+          "magnitude": 6.2,
+          "time": "2015-11-07 07:04:31 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -91.7,
+          "distance_km": 24,
+          "epicenter": {
+            "lat": -29.4642,
+            "lon": -72.3015
+          },
+          "depth_km": 13,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10003vgi",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us10003x8t",
+          "name": "M 6.9 - 81 km NW of Coquimbo, Chile",
+          "magnitude": 6.9,
+          "time": "2015-11-11 01:54:38 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -0.9,
+          "distance_km": 5,
+          "epicenter": {
+            "lat": -29.5067,
+            "lon": -72.0068
+          },
+          "depth_km": 12,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10003x8t",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ]
     },
     {
       "event_id": "us10003ywp",
@@ -1810,7 +2397,10 @@
           "track": "018",
           "orbit_direction": "ascending",
           "date_range": "20160210 - 20160117",
-          "description": "Ascending Track 018"
+          "description": "Ascending Track 018",
+          "contains_events": [
+            "us20004z5b"
+          ]
         },
         {
           "dataset_id": "m_63_37_km_w_of_ovalle_chile-A120",
@@ -1820,7 +2410,10 @@
           "track": "120",
           "orbit_direction": "ascending",
           "date_range": "20160217 - 20160124",
-          "description": "Ascending Track 120"
+          "description": "Ascending Track 120",
+          "contains_events": [
+            "us20004z5b"
+          ]
         },
         {
           "dataset_id": "m_63_37_km_w_of_ovalle_chile-D156",
@@ -1830,7 +2423,11 @@
           "track": "156",
           "orbit_direction": "descending",
           "date_range": "20160303 - 20160115",
-          "description": "Descending Track 156"
+          "description": "Descending Track 156",
+          "contains_events": [
+            "us20004z5b",
+            "us10004rn7"
+          ]
         }
       ],
       "metadata": {
@@ -1838,7 +2435,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20004z5b",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us10004rn7",
+          "name": "M 6.0 - 105 km WSW of Coquimbo, Chile",
+          "magnitude": 6,
+          "time": "2016-02-22 06:36:59 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 294.1,
+          "distance_km": 70,
+          "epicenter": {
+            "lat": -30.4242,
+            "lon": -72.2967
+          },
+          "depth_km": 12,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10004rn7",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6 vs M6.3); filed under the larger event; 12 days apart; related only by the acquisition gap; epicentres 70 km apart, beyond the mainshock's rupture length + 30 km"
+        }
+      ]
     },
     {
       "event_id": "us20004zp9",
@@ -1983,7 +2599,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10004rn7",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us20004z5b",
+          "name": "M 6.3 - 37 km W of Ovalle, Chile",
+          "relation": "doublet partner",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us20005bbh",
@@ -2265,7 +2889,12 @@
           "track": "034",
           "orbit_direction": "ascending",
           "date_range": "20160506 - 20160412",
-          "description": "Ascending Track 034"
+          "description": "Ascending Track 034",
+          "contains_events": [
+            "us20005ih9",
+            "us20005li9",
+            "us10005bxb"
+          ]
         },
         {
           "dataset_id": "m_61_110_km_ssw_of_champerico_guatemala-A136",
@@ -2275,7 +2904,10 @@
           "track": "136",
           "orbit_direction": "ascending",
           "date_range": "20160419 - 20160326",
-          "description": "Ascending Track 136"
+          "description": "Ascending Track 136",
+          "contains_events": [
+            "us20005ih9"
+          ]
         },
         {
           "dataset_id": "m_61_110_km_ssw_of_champerico_guatemala-D026",
@@ -2285,7 +2917,10 @@
           "track": "026",
           "orbit_direction": "descending",
           "date_range": "20160423 - 20160330",
-          "description": "Descending Track 026"
+          "description": "Descending Track 026",
+          "contains_events": [
+            "us20005ih9"
+          ]
         }
       ],
       "metadata": {
@@ -2293,7 +2928,43 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005ih9",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20005li9",
+          "name": "M 6.0 - 83 km WSW of Puerto Madero, Mexico",
+          "magnitude": 6,
+          "time": "2016-04-25 07:07:08 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 232.9,
+          "distance_km": 147,
+          "epicenter": {
+            "lat": 14.479,
+            "lon": -93.1509
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005li9",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6 vs M6.1); filed under the larger event; 10 days apart; related only by the acquisition gap; epicentres 147 km apart, beyond the mainshock's rupture length + 30 km"
+        },
+        {
+          "event_id": "us10005bxb",
+          "name": "M 6.0 - 75 km WSW of Puerto Madero, Mexico",
+          "magnitude": 6,
+          "time": "2016-04-27 12:51:19 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 286.7,
+          "distance_km": 147,
+          "epicenter": {
+            "lat": 14.5178,
+            "lon": -93.0882
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10005bxb",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6 vs M6.1); filed under the larger event; 12 days apart; related only by the acquisition gap; epicentres 147 km apart, beyond the mainshock's rupture length + 30 km"
+        }
+      ]
     },
     {
       "event_id": "us20005iis",
@@ -2320,7 +2991,12 @@
           "track": "054",
           "orbit_direction": "ascending",
           "date_range": "20160425 - 20160401",
-          "description": "Ascending Track 054"
+          "description": "Ascending Track 054",
+          "contains_events": [
+            "us20005iis",
+            "us20005hzn",
+            "us20005i1a"
+          ]
         },
         {
           "dataset_id": "m_70_6_km_ese_of_kumamoto_japan-A156",
@@ -2330,7 +3006,12 @@
           "track": "156",
           "orbit_direction": "ascending",
           "date_range": "20160420 - 20160408",
-          "description": "Ascending Track 156"
+          "description": "Ascending Track 156",
+          "contains_events": [
+            "us20005iis",
+            "us20005hzn",
+            "us20005i1a"
+          ]
         },
         {
           "dataset_id": "m_70_6_km_ese_of_kumamoto_japan-D163",
@@ -2340,7 +3021,12 @@
           "track": "163",
           "orbit_direction": "descending",
           "date_range": "20160420 - 20160327",
-          "description": "Descending Track 163"
+          "description": "Descending Track 163",
+          "contains_events": [
+            "us20005iis",
+            "us20005hzn",
+            "us20005i1a"
+          ]
         }
       ],
       "metadata": {
@@ -2348,7 +3034,41 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005iis",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20005hzn",
+          "name": "M 6.2 - 2 km SSE of Kumamoto, Japan",
+          "magnitude": 6.2,
+          "time": "2016-04-14 12:26:35 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -28.0,
+          "distance_km": 5,
+          "epicenter": {
+            "lat": 32.788,
+            "lon": 130.7042
+          },
+          "depth_km": 9,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005hzn",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20005i1a",
+          "name": "M 6.0 - 5 km ENE of Uto, Japan",
+          "magnitude": 6,
+          "time": "2016-04-14 15:03:47 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -25.4,
+          "distance_km": 11,
+          "epicenter": {
+            "lat": 32.6973,
+            "lon": 130.7204
+          },
+          "depth_km": 8,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005i1a",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us20005j32",
@@ -2375,7 +3095,13 @@
           "track": "018",
           "orbit_direction": "ascending",
           "date_range": "20160422 - 20160329",
-          "description": "Ascending Track 018"
+          "description": "Ascending Track 018",
+          "contains_events": [
+            "us20005j32",
+            "us20005k37",
+            "us20005kb6",
+            "us20005kqh"
+          ]
         },
         {
           "dataset_id": "m_78_27_km_sse_of_muisne_ecuador-A121",
@@ -2385,7 +3111,10 @@
           "track": "121",
           "orbit_direction": "ascending",
           "date_range": "20160417 - 20160324",
-          "description": "Ascending Track 121"
+          "description": "Ascending Track 121",
+          "contains_events": [
+            "us20005j32"
+          ]
         },
         {
           "dataset_id": "m_78_27_km_sse_of_muisne_ecuador-D040",
@@ -2395,7 +3124,13 @@
           "track": "040",
           "orbit_direction": "descending",
           "date_range": "20160424 - 20160412",
-          "description": "Descending Track 040"
+          "description": "Descending Track 040",
+          "contains_events": [
+            "us20005j32",
+            "us20005k37",
+            "us20005kb6",
+            "us20005kqh"
+          ]
         }
       ],
       "metadata": {
@@ -2403,7 +3138,57 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005j32",
         "pager_alert": "orange"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20005k37",
+          "name": "M 6.2 - 21 km W of Muisne, Ecuador",
+          "magnitude": 6.2,
+          "time": "2016-04-20 08:33:47 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 80.6,
+          "distance_km": 43,
+          "epicenter": {
+            "lat": 0.639,
+            "lon": -80.2104
+          },
+          "depth_km": 14,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005k37",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20005kb6",
+          "name": "M 6.0 - 10 km N of Muisne, Ecuador",
+          "magnitude": 6,
+          "time": "2016-04-20 08:35:10 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 80.6,
+          "distance_km": 38,
+          "epicenter": {
+            "lat": 0.7079,
+            "lon": -80.0352
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005kb6",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20005kqh",
+          "name": "M 6.0 - 34 km NNW of Bah\u00eda de Car\u00e1quez, Ecuador",
+          "magnitude": 6,
+          "time": "2016-04-22 03:03:41 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 123.1,
+          "distance_km": 99,
+          "epicenter": {
+            "lat": -0.2921,
+            "lon": -80.5039
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005kqh",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us10005bxb",
@@ -2430,7 +3215,11 @@
           "track": "099",
           "orbit_direction": "descending",
           "date_range": "20160428 - 20160404",
-          "description": "Descending Track 099"
+          "description": "Descending Track 099",
+          "contains_events": [
+            "us10005bxb",
+            "us20005li9"
+          ]
         }
       ],
       "metadata": {
@@ -2438,7 +3227,34 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10005bxb",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20005li9",
+          "name": "M 6.0 - 83 km WSW of Puerto Madero, Mexico",
+          "magnitude": 6,
+          "time": "2016-04-25 07:07:08 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -53.7,
+          "distance_km": 8,
+          "epicenter": {
+            "lat": 14.479,
+            "lon": -93.1509
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005li9",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ],
+      "included_in": [
+        {
+          "event_id": "us20005ih9",
+          "name": "M 6.1 - 110 km SSW of Champerico, Guatemala",
+          "relation": "doublet partner",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us10005i5t",
@@ -2473,7 +3289,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10005i5t",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us10005i9n",
+          "name": "M 6.9 - 24 km NW of Rosa Zarate, Ecuador",
+          "relation": "doublet partner",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us10005i9n",
@@ -2500,7 +3324,11 @@
           "track": "018",
           "orbit_direction": "ascending",
           "date_range": "20160528 - 20160516",
-          "description": "Ascending Track 018"
+          "description": "Ascending Track 018",
+          "contains_events": [
+            "us10005i9n",
+            "us10005i5t"
+          ]
         },
         {
           "dataset_id": "m_69_24_km_nw_of_rosa_zarate_ecuador-D040",
@@ -2510,7 +3338,10 @@
           "track": "040",
           "orbit_direction": "descending",
           "date_range": "20160530 - 20160518",
-          "description": "Descending Track 040"
+          "description": "Descending Track 040",
+          "contains_events": [
+            "us10005i9n"
+          ]
         }
       ],
       "metadata": {
@@ -2518,7 +3349,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10005i9n",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us10005i5t",
+          "name": "M 6.7 - 32 km SE of Muisne, Ecuador",
+          "magnitude": 6.7,
+          "time": "2016-05-18 07:57:02 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -8.8,
+          "distance_km": 21,
+          "epicenter": {
+            "lat": 0.4261,
+            "lon": -79.7899
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10005i5t",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6.7 vs M6.9); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us10005iyk",
@@ -2835,7 +3685,11 @@
           "track": "008",
           "orbit_direction": "ascending",
           "date_range": "20160913 - 20160820",
-          "description": "Ascending Track 008"
+          "description": "Ascending Track 008",
+          "contains_events": [
+            "us10006jbi",
+            "us10006jd4"
+          ]
         },
         {
           "dataset_id": "m_70_175_km_ne_of_gisborne_new_zealand-D175",
@@ -2845,7 +3699,11 @@
           "track": "175",
           "orbit_direction": "descending",
           "date_range": "20160912 - 20160819",
-          "description": "Descending Track 175"
+          "description": "Descending Track 175",
+          "contains_events": [
+            "us10006jbi",
+            "us10006jd4"
+          ]
         }
       ],
       "metadata": {
@@ -2853,7 +3711,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10006jbi",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us10006jd4",
+          "name": "M 6.1 - 179 km NE of Opotiki, New Zealand",
+          "magnitude": 6.1,
+          "time": "2016-09-01 17:14:06 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.6,
+          "distance_km": 39,
+          "epicenter": {
+            "lat": -37.0522,
+            "lon": 178.9291
+          },
+          "depth_km": 13.73,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10006jd4",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us10006pdp",
@@ -3073,7 +3949,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000725y",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us1000731j",
+          "name": "M 6.6 - 5 km ESE of Preci, Italy",
+          "relation": "foreshock",
+          "datasets": 3
+        }
+      ]
     },
     {
       "event_id": "us100072gn",
@@ -3145,7 +4029,10 @@
           "track": "044",
           "orbit_direction": "ascending",
           "date_range": "20161102 - 20161027",
-          "description": "Ascending Track 044"
+          "description": "Ascending Track 044",
+          "contains_events": [
+            "us1000731j"
+          ]
         },
         {
           "dataset_id": "m_66_5_km_ese_of_preci_italy-A117",
@@ -3155,7 +4042,11 @@
           "track": "117",
           "orbit_direction": "ascending",
           "date_range": "20161101 - 20161026",
-          "description": "Ascending Track 117"
+          "description": "Ascending Track 117",
+          "contains_events": [
+            "us1000731j",
+            "us1000725y"
+          ]
         },
         {
           "dataset_id": "m_66_5_km_ese_of_preci_italy-D022",
@@ -3165,7 +4056,11 @@
           "track": "022",
           "orbit_direction": "descending",
           "date_range": "20161101 - 20161026",
-          "description": "Descending Track 022"
+          "description": "Descending Track 022",
+          "contains_events": [
+            "us1000731j",
+            "us1000725y"
+          ]
         },
         {
           "dataset_id": "m_66_5_km_ese_of_preci_italy-D095",
@@ -3175,7 +4070,11 @@
           "track": "095",
           "orbit_direction": "descending",
           "date_range": "20161031 - 20161025",
-          "description": "Descending Track 095"
+          "description": "Descending Track 095",
+          "contains_events": [
+            "us1000731j",
+            "us1000725y"
+          ]
         }
       ],
       "metadata": {
@@ -3183,7 +4082,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000731j",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us1000725y",
+          "name": "M 6.1 - 2 km NNW of Visso, Italy",
+          "magnitude": 6.1,
+          "time": "2016-10-26 19:18:08 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -83.4,
+          "distance_km": 11,
+          "epicenter": {
+            "lat": 42.9564,
+            "lon": 13.0666
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000725y",
+          "has_own_entry": true
+        }
+      ]
     },
     {
       "event_id": "us10007681",
@@ -3265,7 +4182,14 @@
           "track": "052",
           "orbit_direction": "ascending",
           "date_range": "20161115 - 20161103",
-          "description": "Ascending Track 052"
+          "description": "Ascending Track 052",
+          "contains_events": [
+            "us1000778i",
+            "us10007795",
+            "us1000779b",
+            "us100077aj",
+            "us100077hw"
+          ]
         },
         {
           "dataset_id": "m_78_53_km_nne_of_amberley_new_zealand-A081",
@@ -3275,7 +4199,10 @@
           "track": "081",
           "orbit_direction": "ascending",
           "date_range": "20161123 - 20161105",
-          "description": "Ascending Track 081"
+          "description": "Ascending Track 081",
+          "contains_events": [
+            "us1000778i"
+          ]
         },
         {
           "dataset_id": "m_78_53_km_nne_of_amberley_new_zealand-A125",
@@ -3285,7 +4212,12 @@
           "track": "125",
           "orbit_direction": "ascending",
           "date_range": "20161120 - 20160921",
-          "description": "Ascending Track 125"
+          "description": "Ascending Track 125",
+          "contains_events": [
+            "us1000778i",
+            "us10007795",
+            "us100077hw"
+          ]
         },
         {
           "dataset_id": "m_78_53_km_nne_of_amberley_new_zealand-A154",
@@ -3295,7 +4227,14 @@
           "track": "154",
           "orbit_direction": "ascending",
           "date_range": "20161116 - 20161110",
-          "description": "Ascending Track 154"
+          "description": "Ascending Track 154",
+          "contains_events": [
+            "us1000778i",
+            "us10007795",
+            "us1000779b",
+            "us100077aj",
+            "us100077hw"
+          ]
         },
         {
           "dataset_id": "m_78_53_km_nne_of_amberley_new_zealand-D073",
@@ -3305,7 +4244,14 @@
           "track": "073",
           "orbit_direction": "descending",
           "date_range": "20161116 - 20160905",
-          "description": "Descending Track 073"
+          "description": "Descending Track 073",
+          "contains_events": [
+            "us1000778i",
+            "us10007795",
+            "us1000779b",
+            "us100077aj",
+            "us100077hw"
+          ]
         },
         {
           "dataset_id": "m_78_53_km_nne_of_amberley_new_zealand-D146",
@@ -3315,7 +4261,14 @@
           "track": "146",
           "orbit_direction": "descending",
           "date_range": "20161115 - 20160910",
-          "description": "Descending Track 146"
+          "description": "Descending Track 146",
+          "contains_events": [
+            "us1000778i",
+            "us10007795",
+            "us1000779b",
+            "us100077aj",
+            "us100077hw"
+          ]
         },
         {
           "dataset_id": "m_78_53_km_nne_of_amberley_new_zealand-D175",
@@ -3325,7 +4278,10 @@
           "track": "175",
           "orbit_direction": "descending",
           "date_range": "20161117 - 20161030",
-          "description": "Descending Track 175"
+          "description": "Descending Track 175",
+          "contains_events": [
+            "us1000778i"
+          ]
         }
       ],
       "metadata": {
@@ -3333,7 +4289,73 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000778i",
         "pager_alert": "orange"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us10007795",
+          "name": "M 6.5 - 92 km SSW of Blenheim, New Zealand",
+          "magnitude": 6.5,
+          "time": "2016-11-13 11:32:06 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.5,
+          "distance_km": 68,
+          "epicenter": {
+            "lat": -42.3205,
+            "lon": 173.6694
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10007795",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us1000779b",
+          "name": "M 6.1 - 78 km SSW of Blenheim, New Zealand",
+          "magnitude": 6.1,
+          "time": "2016-11-13 11:52:45 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.8,
+          "distance_km": 78,
+          "epicenter": {
+            "lat": -42.1762,
+            "lon": 173.6227
+          },
+          "depth_km": 13.99,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000779b",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us100077aj",
+          "name": "M 6.2 - 90 km SSW of Blenheim, New Zealand",
+          "magnitude": 6.2,
+          "time": "2016-11-13 13:31:25 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 2.5,
+          "distance_km": 71,
+          "epicenter": {
+            "lat": -42.3093,
+            "lon": 173.6961
+          },
+          "depth_km": 2.09,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us100077aj",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us100077hw",
+          "name": "M 6.5 - 74 km NE of Amberley, New Zealand",
+          "magnitude": 6.5,
+          "time": "2016-11-14 00:34:22 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 13.5,
+          "distance_km": 22,
+          "epicenter": {
+            "lat": -42.6058,
+            "lon": 173.2543
+          },
+          "depth_km": 9,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us100077hw",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us10007b88",
@@ -3645,7 +4667,13 @@
           "track": "125",
           "orbit_direction": "ascending",
           "date_range": "20161220 - 20161126",
-          "description": "Ascending Track 125"
+          "description": "Ascending Track 125",
+          "contains_events": [
+            "us20007z80",
+            "us20007zbn",
+            "us20007zlq",
+            "us200082pp"
+          ]
         }
       ],
       "metadata": {
@@ -3653,7 +4681,58 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20007z80",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us20007zbn",
+          "name": "M 6.5 - 79 km WSW of Kirakira, Solomon Islands",
+          "magnitude": 6.5,
+          "time": "2016-12-08 21:56:07 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 4.3,
+          "distance_km": 18,
+          "epicenter": {
+            "lat": -10.8416,
+            "lon": 161.3137
+          },
+          "depth_km": 12.26,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20007zbn",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us20007zlq",
+          "name": "M 6.9 - 92 km WSW of Kirakira, Solomon Islands",
+          "magnitude": 6.9,
+          "time": "2016-12-09 19:10:06 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 25.5,
+          "distance_km": 23,
+          "epicenter": {
+            "lat": -10.749,
+            "lon": 161.1316
+          },
+          "depth_km": 19.73,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20007zlq",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us200082pp",
+          "name": "M 6.4 - 81 km WNW of Kirakira, Solomon Islands",
+          "magnitude": 6.4,
+          "time": "2016-12-20 04:21:29 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 274.7,
+          "distance_km": 57,
+          "epicenter": {
+            "lat": -10.175,
+            "lon": 161.2271
+          },
+          "depth_km": 20,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us200082pp",
+          "has_own_entry": false,
+          "note": "11 days apart; related only by the acquisition gap"
+        }
+      ]
     },
     {
       "event_id": "us10007mf5",
@@ -3790,7 +4869,11 @@
           "track": "125",
           "orbit_direction": "ascending",
           "date_range": "20170113 - 20161220",
-          "description": "Ascending Track 125"
+          "description": "Ascending Track 125",
+          "contains_events": [
+            "us10007sd4",
+            "us200082tk"
+          ]
         }
       ],
       "metadata": {
@@ -3798,7 +4881,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10007sd4",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us200082tk",
+          "name": "M 6.0 - 114 km WNW of Kirakira, Solomon Islands",
+          "magnitude": 6,
+          "time": "2016-12-20 12:33:14 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -506.9,
+          "distance_km": 14,
+          "epicenter": {
+            "lat": -10.1785,
+            "lon": 160.9149
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us200082tk",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6 vs M6.3); filed under the larger event; 21 days apart; related only by the acquisition gap"
+        }
+      ]
     },
     {
       "event_id": "us10007u7n",
@@ -4270,7 +5372,11 @@
           "track": "091",
           "orbit_direction": "ascending",
           "date_range": "20170522 - 20170209",
-          "description": "Ascending Track 091"
+          "description": "Ascending Track 091",
+          "contains_events": [
+            "us10008kce",
+            "us10008jvr"
+          ]
         },
         {
           "dataset_id": "m_69_40_km_w_of_valparaiso_chile-D156",
@@ -4280,7 +5386,11 @@
           "track": "156",
           "orbit_direction": "descending",
           "date_range": "20170427 - 20170421",
-          "description": "Descending Track 156"
+          "description": "Descending Track 156",
+          "contains_events": [
+            "us10008kce",
+            "us10008jvr"
+          ]
         }
       ],
       "metadata": {
@@ -4288,7 +5398,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kce",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us10008jvr",
+          "name": "M 6.0 - 37 km W of Valpara\u00edso, Chile",
+          "magnitude": 6,
+          "time": "2017-04-23 02:36:07 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -43.0,
+          "distance_km": 3,
+          "epicenter": {
+            "lat": -33.0354,
+            "lon": -72.0296
+          },
+          "depth_km": 21,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jvr",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us10008ls4",
@@ -4350,7 +5478,11 @@
           "track": "050",
           "orbit_direction": "ascending",
           "date_range": "20170502 - 20170408",
-          "description": "Ascending Track 050"
+          "description": "Ascending Track 050",
+          "contains_events": [
+            "us10008mgu",
+            "us10008mel"
+          ]
         },
         {
           "dataset_id": "m_63_48_km_nw_of_mosquito_lake_alaska-A079",
@@ -4360,7 +5492,11 @@
           "track": "079",
           "orbit_direction": "ascending",
           "date_range": "20170516 - 20170422",
-          "description": "Ascending Track 079"
+          "description": "Ascending Track 079",
+          "contains_events": [
+            "us10008mgu",
+            "us10008mel"
+          ]
         },
         {
           "dataset_id": "m_63_48_km_nw_of_mosquito_lake_alaska-D145",
@@ -4370,7 +5506,11 @@
           "track": "145",
           "orbit_direction": "descending",
           "date_range": "20170502 - 20170420",
-          "description": "Descending Track 145"
+          "description": "Descending Track 145",
+          "contains_events": [
+            "us10008mgu",
+            "us10008mel"
+          ]
         }
       ],
       "metadata": {
@@ -4378,7 +5518,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008mgu",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us10008mel",
+          "name": "M 6.2 - 47 km NW of Mosquito Lake, Alaska",
+          "magnitude": 6.2,
+          "time": "2017-05-01 12:31:55 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -1.8,
+          "distance_km": 1,
+          "epicenter": {
+            "lat": 59.8209,
+            "lon": -136.7114
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008mel",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6.2 vs M6.3); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us10008npq",
@@ -5640,7 +6799,11 @@
           "track": "057",
           "orbit_direction": "ascending",
           "date_range": "20171216 - 20171210",
-          "description": "Ascending Track 057"
+          "description": "Ascending Track 057",
+          "contains_events": [
+            "us2000c3mi",
+            "us2000c3ag"
+          ]
         },
         {
           "dataset_id": "m_60_63_km_nne_of_kerman_iran-D093",
@@ -5650,7 +6813,11 @@
           "track": "093",
           "orbit_direction": "descending",
           "date_range": "20171213 - 20171207",
-          "description": "Descending Track 093"
+          "description": "Descending Track 093",
+          "contains_events": [
+            "us2000c3mi",
+            "us2000c3ag"
+          ]
         },
         {
           "dataset_id": "m_60_63_km_nne_of_kerman_iran-D166",
@@ -5660,7 +6827,11 @@
           "track": "166",
           "orbit_direction": "descending",
           "date_range": "20171224 - 20171212",
-          "description": "Descending Track 166"
+          "description": "Descending Track 166",
+          "contains_events": [
+            "us2000c3mi",
+            "us2000c3ag"
+          ]
         }
       ],
       "metadata": {
@@ -5668,7 +6839,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000c3mi",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us2000c3ag",
+          "name": "M 6.0 - 53 km NNE of Kerman, Iran",
+          "magnitude": 6,
+          "time": "2017-12-12 08:43:18 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -13.0,
+          "distance_km": 10,
+          "epicenter": {
+            "lat": 30.7372,
+            "lon": 57.2795
+          },
+          "depth_km": 12,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000c3ag",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ]
     },
     {
       "event_id": "us2000cifa",
@@ -5913,7 +7103,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000cfn6",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us1000chhc",
+          "name": "M 6.4 - 18 km NNE of Hualien City, Taiwan",
+          "relation": "doublet partner",
+          "datasets": 2
+        }
+      ]
     },
     {
       "event_id": "us1000chhc",
@@ -5940,7 +7138,11 @@
           "track": "069",
           "orbit_direction": "ascending",
           "date_range": "20180209 - 20180203",
-          "description": "Ascending Track 069"
+          "description": "Ascending Track 069",
+          "contains_events": [
+            "us1000chhc",
+            "us1000cfn6"
+          ]
         },
         {
           "dataset_id": "m_64_18_km_nne_of_hualien_city_taiwan-A171",
@@ -5950,7 +7152,11 @@
           "track": "171",
           "orbit_direction": "ascending",
           "date_range": "20180216 - 20180204",
-          "description": "Ascending Track 171"
+          "description": "Ascending Track 171",
+          "contains_events": [
+            "us1000chhc",
+            "us1000cfn6"
+          ]
         },
         {
           "dataset_id": "m_64_18_km_nne_of_hualien_city_taiwan-D105",
@@ -5960,7 +7166,10 @@
           "track": "105",
           "orbit_direction": "descending",
           "date_range": "20180211 - 20180205",
-          "description": "Descending Track 105"
+          "description": "Descending Track 105",
+          "contains_events": [
+            "us1000chhc"
+          ]
         }
       ],
       "metadata": {
@@ -5968,7 +7177,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000chhc",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us1000cfn6",
+          "name": "M 6.1 - 22 km NNE of Hualien City, Taiwan",
+          "magnitude": 6.1,
+          "time": "2018-02-04 13:56:41 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -49.9,
+          "distance_km": 6,
+          "epicenter": {
+            "lat": 24.1572,
+            "lon": 121.7078
+          },
+          "depth_km": 12,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000cfn6",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6.1 vs M6.4); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us2000d3km",
@@ -6050,7 +7278,14 @@
           "track": "009",
           "orbit_direction": "ascending",
           "date_range": "20180307 - 20180223",
-          "description": "Ascending Track 009"
+          "description": "Ascending Track 009",
+          "contains_events": [
+            "us2000d7q6",
+            "us2000d867",
+            "us2000d90d",
+            "us2000dc52",
+            "us2000dcx1"
+          ]
         },
         {
           "dataset_id": "m_75_32_km_sw_of_tari_papua_new_guinea-A082",
@@ -6060,7 +7295,12 @@
           "track": "082",
           "orbit_direction": "ascending",
           "date_range": "20180228 - 20180216",
-          "description": "Ascending Track 082"
+          "description": "Ascending Track 082",
+          "contains_events": [
+            "us2000d7q6",
+            "us2000d867",
+            "us2000d90d"
+          ]
         },
         {
           "dataset_id": "m_75_32_km_sw_of_tari_papua_new_guinea-D031",
@@ -6070,7 +7310,14 @@
           "track": "031",
           "orbit_direction": "descending",
           "date_range": "20180308 - 20180224",
-          "description": "Descending Track 031"
+          "description": "Descending Track 031",
+          "contains_events": [
+            "us2000d7q6",
+            "us2000d867",
+            "us2000d90d",
+            "us2000dc52",
+            "us2000dcx1"
+          ]
         },
         {
           "dataset_id": "m_75_32_km_sw_of_tari_papua_new_guinea-D133",
@@ -6080,7 +7327,12 @@
           "track": "133",
           "orbit_direction": "descending",
           "date_range": "20180303 - 20180219",
-          "description": "Descending Track 133"
+          "description": "Descending Track 133",
+          "contains_events": [
+            "us2000d7q6",
+            "us2000d867",
+            "us2000d90d"
+          ]
         }
       ],
       "metadata": {
@@ -6088,7 +7340,75 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000d7q6",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us2000d867",
+          "name": "M 6.3 - 59 km SW of Mendi, Papua New Guinea",
+          "magnitude": 6.3,
+          "time": "2018-02-26 15:18:00 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 21.6,
+          "distance_km": 74,
+          "epicenter": {
+            "lat": -6.5052,
+            "lon": 143.255
+          },
+          "depth_km": 19,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000d867",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us2000d90d",
+          "name": "M 6.1 - 63 km SW of Tari, Papua New Guinea",
+          "magnitude": 6.1,
+          "time": "2018-02-28 02:45:45 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 57.0,
+          "distance_km": 33,
+          "epicenter": {
+            "lat": -6.1696,
+            "lon": 142.4681
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000d90d",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us2000dc52",
+          "name": "M 6.0 - 66 km SW of Tari, Papua New Guinea",
+          "magnitude": 6,
+          "time": "2018-03-04 19:56:17 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 170.2,
+          "distance_km": 34,
+          "epicenter": {
+            "lat": -6.331,
+            "lon": 142.5994
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000dc52",
+          "has_own_entry": false,
+          "note": "7 days apart; related only by the acquisition gap"
+        },
+        {
+          "event_id": "us2000dcx1",
+          "name": "M 6.7 - 62 km SW of Tari, Papua New Guinea",
+          "magnitude": 6.7,
+          "time": "2018-03-06 14:13:07 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 212.5,
+          "distance_km": 30,
+          "epicenter": {
+            "lat": -6.3043,
+            "lon": 142.6116
+          },
+          "depth_km": 20.49,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000dcx1",
+          "has_own_entry": true,
+          "note": "9 days apart; related only by the acquisition gap"
+        }
+      ]
     },
     {
       "event_id": "us2000d855",
@@ -6170,7 +7490,11 @@
           "track": "082",
           "orbit_direction": "ascending",
           "date_range": "20180312 - 20180228",
-          "description": "Ascending Track 082"
+          "description": "Ascending Track 082",
+          "contains_events": [
+            "us2000dcx1",
+            "us2000dc52"
+          ]
         },
         {
           "dataset_id": "m_67_62_km_sw_of_tari_papua_new_guinea-D133",
@@ -6180,7 +7504,11 @@
           "track": "133",
           "orbit_direction": "descending",
           "date_range": "20180327 - 20180303",
-          "description": "Descending Track 133"
+          "description": "Descending Track 133",
+          "contains_events": [
+            "us2000dcx1",
+            "us2000dc52"
+          ]
         }
       ],
       "metadata": {
@@ -6188,7 +7516,33 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000dcx1",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us2000dc52",
+          "name": "M 6.0 - 66 km SW of Tari, Papua New Guinea",
+          "magnitude": 6,
+          "time": "2018-03-04 19:56:17 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -42.3,
+          "distance_km": 3,
+          "epicenter": {
+            "lat": -6.331,
+            "lon": 142.5994
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000dc52",
+          "has_own_entry": false
+        }
+      ],
+      "included_in": [
+        {
+          "event_id": "us2000d7q6",
+          "name": "M 7.5 - 32 km SW of Tari, Papua New Guinea",
+          "relation": "aftershock",
+          "datasets": 2
+        }
+      ]
     },
     {
       "event_id": "us1000d1kv",
@@ -6243,7 +7597,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000d1kv",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us1000db40",
+          "name": "M 6.9 - 150 km E of Kimbe, Papua New Guinea",
+          "relation": "doublet partner",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us1000d937",
@@ -6270,7 +7632,11 @@
           "track": "140",
           "orbit_direction": "ascending",
           "date_range": "20180328 - 20180304",
-          "description": "Ascending Track 140"
+          "description": "Ascending Track 140",
+          "contains_events": [
+            "us1000d937",
+            "us1000d8k9"
+          ]
         }
       ],
       "metadata": {
@@ -6278,7 +7644,33 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000d937",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us1000d8k9",
+          "name": "M 6.3 - 150 km E of Kimbe, Papua New Guinea",
+          "magnitude": 6.3,
+          "time": "2018-03-24 11:23:32 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -46.5,
+          "distance_km": 10,
+          "epicenter": {
+            "lat": -5.4959,
+            "lon": 151.4971
+          },
+          "depth_km": 33,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000d8k9",
+          "has_own_entry": false
+        }
+      ],
+      "included_in": [
+        {
+          "event_id": "us1000db40",
+          "name": "M 6.9 - 150 km E of Kimbe, Papua New Guinea",
+          "relation": "doublet partner",
+          "datasets": 3
+        }
+      ]
     },
     {
       "event_id": "us1000db40",
@@ -6305,7 +7697,12 @@
           "track": "067",
           "orbit_direction": "ascending",
           "date_range": "20180404 - 20180323",
-          "description": "Ascending Track 067"
+          "description": "Ascending Track 067",
+          "contains_events": [
+            "us1000db40",
+            "us1000d8k9",
+            "us1000d937"
+          ]
         },
         {
           "dataset_id": "m_69_150_km_e_of_kimbe_papua_new_guinea-A140",
@@ -6315,7 +7712,10 @@
           "track": "140",
           "orbit_direction": "ascending",
           "date_range": "20180409 - 20180328",
-          "description": "Ascending Track 140"
+          "description": "Ascending Track 140",
+          "contains_events": [
+            "us1000db40"
+          ]
         },
         {
           "dataset_id": "m_69_150_km_e_of_kimbe_papua_new_guinea-D016",
@@ -6325,7 +7725,13 @@
           "track": "016",
           "orbit_direction": "descending",
           "date_range": "20180412 - 20180307",
-          "description": "Descending Track 016"
+          "description": "Descending Track 016",
+          "contains_events": [
+            "us1000db40",
+            "us1000d1kv",
+            "us1000d8k9",
+            "us1000d937"
+          ]
         },
         {
           "dataset_id": "m_69_150_km_e_of_kimbe_papua_new_guinea-D089",
@@ -6335,7 +7741,11 @@
           "track": "089",
           "orbit_direction": "descending",
           "date_range": "20180405 - 20180324",
-          "description": "Descending Track 089"
+          "description": "Descending Track 089",
+          "contains_events": [
+            "us1000db40",
+            "us1000d937"
+          ]
         }
       ],
       "metadata": {
@@ -6343,7 +7753,59 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000db40",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us1000d1kv",
+          "name": "M 6.8 - 103 km E of Kokopo, Papua New Guinea",
+          "magnitude": 6.8,
+          "time": "2018-03-08 17:39:51 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -507.8,
+          "distance_km": 228,
+          "epicenter": {
+            "lat": -4.3762,
+            "lon": 153.1996
+          },
+          "depth_km": 22.86,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000d1kv",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6.8 vs M6.9); filed under the larger event; 21 days apart; related only by the acquisition gap; epicentres 228 km apart, beyond the mainshock's rupture length + 30 km"
+        },
+        {
+          "event_id": "us1000d8k9",
+          "name": "M 6.3 - 150 km E of Kimbe, Papua New Guinea",
+          "magnitude": 6.3,
+          "time": "2018-03-24 11:23:32 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -130.0,
+          "distance_km": 4,
+          "epicenter": {
+            "lat": -5.4959,
+            "lon": 151.4971
+          },
+          "depth_km": 33,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000d8k9",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us1000d937",
+          "name": "M 6.7 - 140 km E of Kimbe, Papua New Guinea",
+          "magnitude": 6.7,
+          "time": "2018-03-26 09:51:00 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -83.6,
+          "distance_km": 11,
+          "epicenter": {
+            "lat": -5.5024,
+            "lon": 151.4025
+          },
+          "depth_km": 40,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000d937",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6.7 vs M6.9); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us2000dus5",
@@ -6855,7 +8317,11 @@
           "track": "050",
           "orbit_direction": "ascending",
           "date_range": "20180831 - 20180720",
-          "description": "Ascending Track 050"
+          "description": "Ascending Track 050",
+          "contains_events": [
+            "ak018aap2cqu",
+            "ak018aasz24z"
+          ]
         },
         {
           "dataset_id": "m_64_89_km_sw_of_kaktovik_alaska-D131",
@@ -6865,7 +8331,11 @@
           "track": "131",
           "orbit_direction": "descending",
           "date_range": "20180818 - 20180806",
-          "description": "Descending Track 131"
+          "description": "Descending Track 131",
+          "contains_events": [
+            "ak018aap2cqu",
+            "ak018aasz24z"
+          ]
         },
         {
           "dataset_id": "m_64_89_km_sw_of_kaktovik_alaska-D160",
@@ -6875,7 +8345,11 @@
           "track": "160",
           "orbit_direction": "descending",
           "date_range": "20180820 - 20180808",
-          "description": "Descending Track 160"
+          "description": "Descending Track 160",
+          "contains_events": [
+            "ak018aap2cqu",
+            "ak018aasz24z"
+          ]
         }
       ],
       "metadata": {
@@ -6883,7 +8357,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak018aap2cqu",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "ak018aasz24z",
+          "name": "M 6.0 - 73 km SSW of Kaktovik, Alaska",
+          "magnitude": 6,
+          "time": "2018-08-12 21:15:00 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 6.3,
+          "distance_km": 37,
+          "epicenter": {
+            "lat": 69.5227,
+            "lon": -144.3388
+          },
+          "depth_km": 16.2,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak018aasz24z",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us1000gc0k",
@@ -6965,7 +8457,11 @@
           "track": "083",
           "orbit_direction": "ascending",
           "date_range": "20180827 - 20180815",
-          "description": "Ascending Track 083"
+          "description": "Ascending Track 083",
+          "contains_events": [
+            "us1000gda5",
+            "us1000gcvr"
+          ]
         },
         {
           "dataset_id": "m_69_20_km_nnw_of_labuan_lombok_indonesia-A156",
@@ -6975,7 +8471,11 @@
           "track": "156",
           "orbit_direction": "ascending",
           "date_range": "20180820 - 20180814",
-          "description": "Ascending Track 156"
+          "description": "Ascending Track 156",
+          "contains_events": [
+            "us1000gda5",
+            "us1000gcvr"
+          ]
         },
         {
           "dataset_id": "m_69_20_km_nnw_of_labuan_lombok_indonesia-D032",
@@ -6985,7 +8485,11 @@
           "track": "032",
           "orbit_direction": "descending",
           "date_range": "20180823 - 20180817",
-          "description": "Descending Track 032"
+          "description": "Descending Track 032",
+          "contains_events": [
+            "us1000gda5",
+            "us1000gcvr"
+          ]
         }
       ],
       "metadata": {
@@ -6993,7 +8497,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000gda5",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us1000gcvr",
+          "name": "M 6.3 - 19 km NNW of Labuan Lombok, Indonesia",
+          "magnitude": 6.3,
+          "time": "2018-08-19 04:10:22 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -10.8,
+          "distance_km": 4,
+          "epicenter": {
+            "lat": -8.3366,
+            "lon": 116.5993
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000gcvr",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us1000gf2g",
@@ -7735,7 +9257,11 @@
           "track": "010",
           "orbit_direction": "ascending",
           "date_range": "20190125 - 20190113",
-          "description": "Ascending Track 010"
+          "description": "Ascending Track 010",
+          "contains_events": [
+            "us2000j73a",
+            "us2000j70q"
+          ]
         },
         {
           "dataset_id": "m_63_160_km_wsw_of_waingapu_indonesia-D061",
@@ -7745,7 +9271,11 @@
           "track": "061",
           "orbit_direction": "descending",
           "date_range": "20190128 - 20190116",
-          "description": "Descending Track 061"
+          "description": "Descending Track 061",
+          "contains_events": [
+            "us2000j73a",
+            "us2000j70q"
+          ]
         }
       ],
       "metadata": {
@@ -7753,7 +9283,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000j73a",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us2000j70q",
+          "name": "M 6.0 - 142 km WSW of Waingapu, Indonesia",
+          "magnitude": 6,
+          "time": "2019-01-21 23:59:23 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -5.2,
+          "distance_km": 18,
+          "epicenter": {
+            "lat": -10.3278,
+            "lon": 119.1521
+          },
+          "depth_km": 26,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000j70q",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6 vs M6.3); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us1000jccx",
@@ -8405,7 +9954,10 @@
           "track": "053",
           "orbit_direction": "ascending",
           "date_range": "20190621 - 20190609",
-          "description": "Ascending Track 053"
+          "description": "Ascending Track 053",
+          "contains_events": [
+            "us6000434e"
+          ]
         },
         {
           "dataset_id": "m_63_244_km_w_of_abepura_indonesia-A155",
@@ -8415,7 +9967,11 @@
           "track": "155",
           "orbit_direction": "ascending",
           "date_range": "20190628 - 20190616",
-          "description": "Ascending Track 155"
+          "description": "Ascending Track 155",
+          "contains_events": [
+            "us6000434e",
+            "us600044z4"
+          ]
         },
         {
           "dataset_id": "m_63_244_km_w_of_abepura_indonesia-D002",
@@ -8425,7 +9981,11 @@
           "track": "002",
           "orbit_direction": "descending",
           "date_range": "20190629 - 20190617",
-          "description": "Descending Track 002"
+          "description": "Descending Track 002",
+          "contains_events": [
+            "us6000434e",
+            "us600044z4"
+          ]
         },
         {
           "dataset_id": "m_63_244_km_w_of_abepura_indonesia-D104",
@@ -8435,7 +9995,11 @@
           "track": "104",
           "orbit_direction": "descending",
           "date_range": "20190624 - 20190612",
-          "description": "Descending Track 104"
+          "description": "Descending Track 104",
+          "contains_events": [
+            "us6000434e",
+            "us600044z4"
+          ]
         }
       ],
       "metadata": {
@@ -8443,7 +10007,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000434e",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us600044z4",
+          "name": "M 6.1 - 230 km W of Abepura, Indonesia",
+          "magnitude": 6.1,
+          "time": "2019-06-24 01:05:29 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 103.7,
+          "distance_km": 58,
+          "epicenter": {
+            "lat": -2.7756,
+            "lon": 138.5675
+          },
+          "depth_km": 28,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us600044z4",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6.1 vs M6.3); filed under the larger event; epicentres 58 km apart, beyond the mainshock's rupture length + 30 km"
+        }
+      ]
     },
     {
       "event_id": "us600044z4",
@@ -8478,7 +10061,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us600044z4",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us6000434e",
+          "name": "M 6.3 - 244 km W of Abepura, Indonesia",
+          "relation": "doublet partner",
+          "datasets": 3
+        }
+      ]
     },
     {
       "event_id": "us7000455l",
@@ -8568,7 +10159,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "ci38457511",
+          "name": "M 7.1 - Ridgecrest Earthquake Sequence",
+          "relation": "foreshock",
+          "datasets": 3
+        }
+      ]
     },
     {
       "event_id": "ci38457511",
@@ -8595,7 +10194,11 @@
           "track": "064",
           "orbit_direction": "ascending",
           "date_range": "20190710 - 20190704",
-          "description": "Ascending Track 064"
+          "description": "Ascending Track 064",
+          "contains_events": [
+            "ci38457511",
+            "ci38443183"
+          ]
         },
         {
           "dataset_id": "m_71_ridgecrest_earthquake_sequence-A166",
@@ -8605,7 +10208,10 @@
           "track": "166",
           "orbit_direction": "ascending",
           "date_range": "20190717 - 20190705",
-          "description": "Ascending Track 166"
+          "description": "Ascending Track 166",
+          "contains_events": [
+            "ci38457511"
+          ]
         },
         {
           "dataset_id": "m_71_ridgecrest_earthquake_sequence-D071",
@@ -8615,7 +10221,11 @@
           "track": "071",
           "orbit_direction": "descending",
           "date_range": "20190716 - 20190704",
-          "description": "Descending Track 071"
+          "description": "Descending Track 071",
+          "contains_events": [
+            "ci38457511",
+            "ci38443183"
+          ]
         },
         {
           "dataset_id": "m_71_ridgecrest_earthquake_sequence-D144",
@@ -8625,7 +10235,11 @@
           "track": "144",
           "orbit_direction": "descending",
           "date_range": "20190709 - 20190627",
-          "description": "Descending Track 144"
+          "description": "Descending Track 144",
+          "contains_events": [
+            "ci38457511",
+            "ci38443183"
+          ]
         }
       ],
       "metadata": {
@@ -8633,7 +10247,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "ci38443183",
+          "name": "M 6.4 - Ridgecrest Earthquake Sequence",
+          "magnitude": 6.4,
+          "time": "2019-07-04 17:33:49 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -33.8,
+          "distance_km": 11,
+          "epicenter": {
+            "lat": 35.705333,
+            "lon": -117.503833
+          },
+          "depth_km": 10.5,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183",
+          "has_own_entry": true
+        }
+      ]
     },
     {
       "event_id": "us70004jyv",
@@ -8995,7 +10627,11 @@
           "track": "069",
           "orbit_direction": "ascending",
           "date_range": "20191107 - 20191026",
-          "description": "Ascending Track 069"
+          "description": "Ascending Track 069",
+          "contains_events": [
+            "us6000645n",
+            "us700061e9"
+          ]
         },
         {
           "dataset_id": "m_66_10_km_ne_of_columbio_philippines-A171",
@@ -9005,7 +10641,11 @@
           "track": "171",
           "orbit_direction": "ascending",
           "date_range": "20191102 - 20191021",
-          "description": "Ascending Track 171"
+          "description": "Ascending Track 171",
+          "contains_events": [
+            "us6000645n",
+            "us700061e9"
+          ]
         },
         {
           "dataset_id": "m_66_10_km_ne_of_columbio_philippines-D061",
@@ -9015,7 +10655,11 @@
           "track": "061",
           "orbit_direction": "descending",
           "date_range": "20191031 - 20191019",
-          "description": "Descending Track 061"
+          "description": "Descending Track 061",
+          "contains_events": [
+            "us6000645n",
+            "us700061e9"
+          ]
         },
         {
           "dataset_id": "m_66_10_km_ne_of_columbio_philippines-D163",
@@ -9025,7 +10669,11 @@
           "track": "163",
           "orbit_direction": "descending",
           "date_range": "20191107 - 20191026",
-          "description": "Descending Track 163"
+          "description": "Descending Track 163",
+          "contains_events": [
+            "us6000645n",
+            "us700061e9"
+          ]
         }
       ],
       "metadata": {
@@ -9033,7 +10681,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000645n",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us700061e9",
+          "name": "M 6.5 - 2 km ENE of Bulatukan, Philippines",
+          "magnitude": 6.5,
+          "time": "2019-10-31 01:11:19 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 48.1,
+          "distance_km": 25,
+          "epicenter": {
+            "lat": 6.9098,
+            "lon": 125.1782
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us700061e9",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6.5 vs M6.6); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us70006ara",
@@ -10460,7 +12127,10 @@
           "track": "007",
           "orbit_direction": "ascending",
           "date_range": "20200724 - 20200712",
-          "description": "Ascending Track 007"
+          "description": "Ascending Track 007",
+          "contains_events": [
+            "us7000asvb"
+          ]
         },
         {
           "dataset_id": "m_78_2020_perryville_alaska_earthquake-D073",
@@ -10470,7 +12140,11 @@
           "track": "073",
           "orbit_direction": "descending",
           "date_range": "20200722 - 20200710",
-          "description": "Descending Track 073"
+          "description": "Descending Track 073",
+          "contains_events": [
+            "us7000asvb",
+            "us7000asx4"
+          ]
         },
         {
           "dataset_id": "m_78_2020_perryville_alaska_earthquake-D102",
@@ -10480,7 +12154,11 @@
           "track": "102",
           "orbit_direction": "descending",
           "date_range": "20200724 - 20200712",
-          "description": "Descending Track 102"
+          "description": "Descending Track 102",
+          "contains_events": [
+            "us7000asvb",
+            "us7000asx4"
+          ]
         }
       ],
       "metadata": {
@@ -10488,7 +12166,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000asvb",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000asx4",
+          "name": "M 6.1 - 101 km ESE of Sand Point, Alaska",
+          "magnitude": 6.1,
+          "time": "2020-07-22 06:16:18 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.1,
+          "distance_km": 31,
+          "epicenter": {
+            "lat": 54.969,
+            "lon": -159.0413
+          },
+          "depth_km": 16.53,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000asx4",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us6000b26j",
@@ -10800,7 +12496,11 @@
           "track": "067",
           "orbit_direction": "ascending",
           "date_range": "20200827 - 20200815",
-          "description": "Ascending Track 067"
+          "description": "Ascending Track 067",
+          "contains_events": [
+            "us7000bcty",
+            "us7000bctq"
+          ]
         },
         {
           "dataset_id": "m_62_141_km_ssw_of_kokopo_papua_new_guinea-D016",
@@ -10810,7 +12510,11 @@
           "track": "016",
           "orbit_direction": "descending",
           "date_range": "20200904 - 20200823",
-          "description": "Descending Track 016"
+          "description": "Descending Track 016",
+          "contains_events": [
+            "us7000bcty",
+            "us7000bctq"
+          ]
         }
       ],
       "metadata": {
@@ -10818,7 +12522,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000bcty",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000bctq",
+          "name": "M 6.0 - 141 km SSW of Kokopo, Papua New Guinea",
+          "magnitude": 6,
+          "time": "2020-08-25 19:02:58 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -0.1,
+          "distance_km": 3,
+          "epicenter": {
+            "lat": -5.5579,
+            "lon": 151.8638
+          },
+          "depth_km": 23,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000bctq",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6 vs M6.2); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us7000bfjr",
@@ -10845,7 +12568,12 @@
           "track": "120",
           "orbit_direction": "ascending",
           "date_range": "20200905 - 20200824",
-          "description": "Ascending Track 120"
+          "description": "Ascending Track 120",
+          "contains_events": [
+            "us7000bfjr",
+            "us7000bfjx",
+            "us7000bg4v"
+          ]
         },
         {
           "dataset_id": "m_68_86_km_nw_of_vallenar_chile-D156",
@@ -10855,7 +12583,12 @@
           "track": "156",
           "orbit_direction": "descending",
           "date_range": "20200908 - 20200827",
-          "description": "Descending Track 156"
+          "description": "Descending Track 156",
+          "contains_events": [
+            "us7000bfjr",
+            "us7000bfjx",
+            "us7000bg4v"
+          ]
         }
       ],
       "metadata": {
@@ -10863,7 +12596,42 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000bfjr",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000bfjx",
+          "name": "M 6.3 - 78 km NW of Vallenar, Chile",
+          "magnitude": 6.3,
+          "time": "2020-09-01 04:30:02 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.3,
+          "distance_km": 8,
+          "epicenter": {
+            "lat": -28.0315,
+            "lon": -71.2662
+          },
+          "depth_km": 16.18,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000bfjx",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000bg4v",
+          "name": "M 6.5 - 94 km NW of Vallenar, Chile",
+          "magnitude": 6.5,
+          "time": "2020-09-01 21:09:17 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 17.0,
+          "distance_km": 9,
+          "epicenter": {
+            "lat": -27.9162,
+            "lon": -71.3701
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000bg4v",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6.5 vs M6.8); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us7000biqb",
@@ -10945,7 +12713,11 @@
           "track": "081",
           "orbit_direction": "ascending",
           "date_range": "20200909 - 20200903",
-          "description": "Ascending Track 081"
+          "description": "Ascending Track 081",
+          "contains_events": [
+            "us7000bj6y",
+            "us7000birm"
+          ]
         },
         {
           "dataset_id": "m_62_72_km_nne_of_portvila_vanuatu-A154",
@@ -10955,7 +12727,11 @@
           "track": "154",
           "orbit_direction": "ascending",
           "date_range": "20200914 - 20200902",
-          "description": "Ascending Track 154"
+          "description": "Ascending Track 154",
+          "contains_events": [
+            "us7000bj6y",
+            "us7000birm"
+          ]
         },
         {
           "dataset_id": "m_62_72_km_nne_of_portvila_vanuatu-D059",
@@ -10965,7 +12741,11 @@
           "track": "059",
           "orbit_direction": "descending",
           "date_range": "20200913 - 20200901",
-          "description": "Descending Track 059"
+          "description": "Descending Track 059",
+          "contains_events": [
+            "us7000bj6y",
+            "us7000birm"
+          ]
         }
       ],
       "metadata": {
@@ -10973,7 +12753,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000bj6y",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000birm",
+          "name": "M 6.2 - 104 km NW of Port-Vila, Vanuatu",
+          "magnitude": 6.2,
+          "time": "2020-09-06 02:59:16 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -27.2,
+          "distance_km": 103,
+          "epicenter": {
+            "lat": -17.1562,
+            "lon": 167.5321
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000birm",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event; epicentres 103 km apart, beyond the mainshock's rupture length + 30 km"
+        }
+      ]
     },
     {
       "event_id": "us7000bm9m",
@@ -13145,7 +14944,11 @@
           "track": "057",
           "orbit_direction": "ascending",
           "date_range": "20211125 - 20211113",
-          "description": "Ascending Track 057"
+          "description": "Ascending Track 057",
+          "contains_events": [
+            "us7000fu12",
+            "us7000fu0x"
+          ]
         },
         {
           "dataset_id": "m_64_63_km_nnw_of_bandar_abbas_iran-A130",
@@ -13155,7 +14958,11 @@
           "track": "130",
           "orbit_direction": "ascending",
           "date_range": "20211118 - 20211106",
-          "description": "Ascending Track 130"
+          "description": "Ascending Track 130",
+          "contains_events": [
+            "us7000fu12",
+            "us7000fu0x"
+          ]
         },
         {
           "dataset_id": "m_64_63_km_nnw_of_bandar_abbas_iran-D093",
@@ -13165,7 +14972,11 @@
           "track": "093",
           "orbit_direction": "descending",
           "date_range": "20211116 - 20211104",
-          "description": "Descending Track 093"
+          "description": "Descending Track 093",
+          "contains_events": [
+            "us7000fu12",
+            "us7000fu0x"
+          ]
         },
         {
           "dataset_id": "m_64_63_km_nnw_of_bandar_abbas_iran-D166",
@@ -13175,7 +14986,11 @@
           "track": "166",
           "orbit_direction": "descending",
           "date_range": "20211121 - 20211109",
-          "description": "Descending Track 166"
+          "description": "Descending Track 166",
+          "contains_events": [
+            "us7000fu12",
+            "us7000fu0x"
+          ]
         }
       ],
       "metadata": {
@@ -13183,7 +14998,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu12",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000fu0x",
+          "name": "M 6.0 - 62 km NNW of Bandar Abbas, Iran",
+          "magnitude": 6,
+          "time": "2021-11-14 12:07:03 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -0.0,
+          "distance_km": 1,
+          "epicenter": {
+            "lat": 27.7158,
+            "lon": 56.0743
+          },
+          "depth_km": 9,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu0x",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us7000fv37",
@@ -13218,7 +15051,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fv37",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us6000g7v8",
+          "name": "M 6.3 - 113 km SSE of Kavieng, Papua New Guinea",
+          "relation": "doublet partner",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us6000g7v8",
@@ -13245,7 +15086,11 @@
           "track": "067",
           "orbit_direction": "ascending",
           "date_range": "20211208 - 20211126",
-          "description": "Ascending Track 067"
+          "description": "Ascending Track 067",
+          "contains_events": [
+            "us6000g7v8",
+            "us6000g8te"
+          ]
         },
         {
           "dataset_id": "m_63_113_km_sse_of_kavieng_papua_new_guinea-D016",
@@ -13255,7 +15100,12 @@
           "track": "016",
           "orbit_direction": "descending",
           "date_range": "20211204 - 20211110",
-          "description": "Descending Track 016"
+          "description": "Descending Track 016",
+          "contains_events": [
+            "us6000g7v8",
+            "us7000fv37",
+            "us6000g8te"
+          ]
         },
         {
           "dataset_id": "m_63_113_km_sse_of_kavieng_papua_new_guinea-D089",
@@ -13265,7 +15115,11 @@
           "track": "089",
           "orbit_direction": "descending",
           "date_range": "20211209 - 20211127",
-          "description": "Descending Track 089"
+          "description": "Descending Track 089",
+          "contains_events": [
+            "us6000g7v8",
+            "us6000g8te"
+          ]
         }
       ],
       "metadata": {
@@ -13273,7 +15127,43 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g7v8",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000fv37",
+          "name": "M 6.2 - 192 km SE of Kokopo, Papua New Guinea",
+          "magnitude": 6.2,
+          "time": "2021-11-18 14:08:04 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -284.5,
+          "distance_km": 343,
+          "epicenter": {
+            "lat": -5.3122,
+            "lon": 153.7074
+          },
+          "depth_km": 34,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fv37",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6.2 vs M6.3); filed under the larger event; 12 days apart; related only by the acquisition gap; epicentres 343 km apart, beyond the mainshock's rupture length + 30 km"
+        },
+        {
+          "event_id": "us6000g8te",
+          "name": "M 6.1 - 110 km NW of Rabaul, Papua New Guinea",
+          "magnitude": 6.1,
+          "time": "2021-11-30 10:37:35 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 0.0,
+          "distance_km": 22,
+          "epicenter": {
+            "lat": -3.6249,
+            "lon": 151.3524
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000g8te",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6.1 vs M6.3); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us6000gc2a",
@@ -13893,7 +15783,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd000h551",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us7000h0yj",
+          "name": "M 6.3 - 63 km WSW of Norsup, Vanuatu",
+          "relation": "doublet partner",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us7000h0yj",
@@ -13920,7 +15818,11 @@
           "track": "154",
           "orbit_direction": "ascending",
           "date_range": "20220413 - 20220401",
-          "description": "Ascending Track 154"
+          "description": "Ascending Track 154",
+          "contains_events": [
+            "us7000h0yj",
+            "usd000h551"
+          ]
         }
       ],
       "metadata": {
@@ -13928,7 +15830,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h0yj",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "usd000h551",
+          "name": "M 6.0 - 56 km WNW of Port-Vila, Vanuatu",
+          "magnitude": 6,
+          "time": "2022-04-04 16:06:57 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -124.8,
+          "distance_km": 167,
+          "epicenter": {
+            "lat": -17.4723,
+            "lon": 167.8625
+          },
+          "depth_km": 31,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/usd000h551",
+          "has_own_entry": true,
+          "note": "doublet by magnitude (M6 vs M6.3); filed under the larger event; epicentres 167 km apart, beyond the mainshock's rupture length + 30 km"
+        }
+      ]
     },
     {
       "event_id": "us7000h373",
@@ -13955,7 +15876,11 @@
           "track": "163",
           "orbit_direction": "descending",
           "date_range": "20220425 - 20220401",
-          "description": "Descending Track 163"
+          "description": "Descending Track 163",
+          "contains_events": [
+            "us7000h373",
+            "us6000hf49"
+          ]
         }
       ],
       "metadata": {
@@ -13963,7 +15888,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000h373",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000hf49",
+          "name": "M 6.0 - 50 km ESE of Manay, Philippines",
+          "magnitude": 6,
+          "time": "2022-04-20 21:57:43 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 44.6,
+          "distance_km": 35,
+          "epicenter": {
+            "lat": 6.9686,
+            "lon": 126.9241
+          },
+          "depth_km": 19,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hf49",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6 vs M6.1); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us6000hf75",
@@ -14215,7 +16159,11 @@
           "track": "057",
           "orbit_direction": "ascending",
           "date_range": "20220711 - 20220629",
-          "description": "Ascending Track 057"
+          "description": "Ascending Track 057",
+          "contains_events": [
+            "us6000hz9v",
+            "us6000hz8x"
+          ]
         },
         {
           "dataset_id": "m_60_57_km_ne_of_bandare_lengeh_iran-A130",
@@ -14225,7 +16173,11 @@
           "track": "130",
           "orbit_direction": "ascending",
           "date_range": "20220704 - 20220622",
-          "description": "Ascending Track 130"
+          "description": "Ascending Track 130",
+          "contains_events": [
+            "us6000hz9v",
+            "us6000hz8x"
+          ]
         },
         {
           "dataset_id": "m_60_57_km_ne_of_bandare_lengeh_iran-D064",
@@ -14235,7 +16187,11 @@
           "track": "064",
           "orbit_direction": "descending",
           "date_range": "20220712 - 20220630",
-          "description": "Descending Track 064"
+          "description": "Descending Track 064",
+          "contains_events": [
+            "us6000hz9v",
+            "us6000hz8x"
+          ]
         },
         {
           "dataset_id": "m_60_57_km_ne_of_bandare_lengeh_iran-D166",
@@ -14245,7 +16201,11 @@
           "track": "166",
           "orbit_direction": "descending",
           "date_range": "20220707 - 20220625",
-          "description": "Descending Track 166"
+          "description": "Descending Track 166",
+          "contains_events": [
+            "us6000hz9v",
+            "us6000hz8x"
+          ]
         }
       ],
       "metadata": {
@@ -14253,7 +16213,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hz9v",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000hz8x",
+          "name": "M 6.0 - 52 km NE of Bandar-e Lengeh, Iran",
+          "magnitude": 6,
+          "time": "2022-07-01 21:32:07 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -1.9,
+          "distance_km": 8,
+          "epicenter": {
+            "lat": 26.9061,
+            "lon": 55.2389
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hz8x",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ]
     },
     {
       "event_id": "us6000i5rd",
@@ -14390,7 +16369,11 @@
           "track": "053",
           "orbit_direction": "ascending",
           "date_range": "20220921 - 20220909",
-          "description": "Ascending Track 053"
+          "description": "Ascending Track 053",
+          "contains_events": [
+            "us6000iikp",
+            "us6000iika"
+          ]
         },
         {
           "dataset_id": "m_62_260_km_ese_of_biak_indonesia-A155",
@@ -14400,7 +16383,11 @@
           "track": "155",
           "orbit_direction": "ascending",
           "date_range": "20220916 - 20220904",
-          "description": "Ascending Track 155"
+          "description": "Ascending Track 155",
+          "contains_events": [
+            "us6000iikp",
+            "us6000iika"
+          ]
         },
         {
           "dataset_id": "m_62_260_km_ese_of_biak_indonesia-D002",
@@ -14410,7 +16397,11 @@
           "track": "002",
           "orbit_direction": "descending",
           "date_range": "20220917 - 20220905",
-          "description": "Descending Track 002"
+          "description": "Descending Track 002",
+          "contains_events": [
+            "us6000iikp",
+            "us6000iika"
+          ]
         }
       ],
       "metadata": {
@@ -14418,7 +16409,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iikp",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000iika",
+          "name": "M 6.2 - Papua, Indonesia",
+          "magnitude": 6.2,
+          "time": "2022-09-09 23:31:47 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -0.6,
+          "distance_km": 3,
+          "epicenter": {
+            "lat": -2.2492,
+            "lon": 138.1979
+          },
+          "depth_km": 18,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iika",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ]
     },
     {
       "event_id": "us7000i90q",
@@ -14445,7 +16455,11 @@
           "track": "069",
           "orbit_direction": "ascending",
           "date_range": "20220922 - 20220910",
-          "description": "Ascending Track 069"
+          "description": "Ascending Track 069",
+          "contains_events": [
+            "us7000i90q",
+            "us7000i8ui"
+          ]
         },
         {
           "dataset_id": "m_69_90_km_e_of_yujing_taiwan-D105",
@@ -14455,7 +16469,11 @@
           "track": "105",
           "orbit_direction": "descending",
           "date_range": "20220924 - 20220912",
-          "description": "Descending Track 105"
+          "description": "Descending Track 105",
+          "contains_events": [
+            "us7000i90q",
+            "us7000i8ui"
+          ]
         }
       ],
       "metadata": {
@@ -14463,7 +16481,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90q",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000i8ui",
+          "name": "M 6.5 - 96 km SE of Lugu, Taiwan",
+          "magnitude": 6.5,
+          "time": "2022-09-17 13:41:17 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -17.0,
+          "distance_km": 7,
+          "epicenter": {
+            "lat": 23.1191,
+            "lon": 121.4138
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i8ui",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us7000i9bw",
@@ -14490,7 +16526,10 @@
           "track": "049",
           "orbit_direction": "ascending",
           "date_range": "20220921 - 20220828",
-          "description": "Ascending Track 049"
+          "description": "Ascending Track 049",
+          "contains_events": [
+            "us7000i9bw"
+          ]
         },
         {
           "dataset_id": "m_76_35_km_ssw_of_aguililla_mexico-A151",
@@ -14500,7 +16539,11 @@
           "track": "151",
           "orbit_direction": "ascending",
           "date_range": "20220928 - 20220916",
-          "description": "Ascending Track 151"
+          "description": "Ascending Track 151",
+          "contains_events": [
+            "us7000i9bw",
+            "us7000ia36"
+          ]
         },
         {
           "dataset_id": "m_76_35_km_ssw_of_aguililla_mexico-D012",
@@ -14510,7 +16553,11 @@
           "track": "012",
           "orbit_direction": "descending",
           "date_range": "20220930 - 20220918",
-          "description": "Descending Track 012"
+          "description": "Descending Track 012",
+          "contains_events": [
+            "us7000i9bw",
+            "us7000ia36"
+          ]
         },
         {
           "dataset_id": "m_76_35_km_ssw_of_aguililla_mexico-D114",
@@ -14520,7 +16567,11 @@
           "track": "114",
           "orbit_direction": "descending",
           "date_range": "20220925 - 20220913",
-          "description": "Descending Track 114"
+          "description": "Descending Track 114",
+          "contains_events": [
+            "us7000i9bw",
+            "us7000ia36"
+          ]
         }
       ],
       "metadata": {
@@ -14528,7 +16579,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9bw",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000ia36",
+          "name": "M 6.8 - 55 km SSW of Aguililla, Mexico",
+          "magnitude": 6.8,
+          "time": "2022-09-22 06:16:09 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 60.2,
+          "distance_km": 21,
+          "epicenter": {
+            "lat": 18.2633,
+            "lon": -102.9554
+          },
+          "depth_km": 20,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia36",
+          "has_own_entry": true
+        }
+      ]
     },
     {
       "event_id": "us7000ia36",
@@ -14563,7 +16632,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ia36",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us7000i9bw",
+          "name": "M 7.6 - 35 km SSW of Aguililla, Mexico",
+          "relation": "aftershock",
+          "datasets": 3
+        }
+      ]
     },
     {
       "event_id": "us6000iv6c",
@@ -15155,7 +17232,14 @@
           "track": "014",
           "orbit_direction": "ascending",
           "date_range": "20230209 - 20230128",
-          "description": "Ascending Track 014"
+          "description": "Ascending Track 014",
+          "contains_events": [
+            "us6000jllz",
+            "us6000jlm1",
+            "us6000jlqa",
+            "us6000jm1y",
+            "us6000jlrc"
+          ]
         },
         {
           "dataset_id": "m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-A043",
@@ -15165,7 +17249,12 @@
           "track": "043",
           "orbit_direction": "ascending",
           "date_range": "20230211 - 20230130",
-          "description": "Ascending Track 043"
+          "description": "Ascending Track 043",
+          "contains_events": [
+            "us6000jllz",
+            "us6000jlqa",
+            "us6000jm1y"
+          ]
         },
         {
           "dataset_id": "m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-A116",
@@ -15175,7 +17264,15 @@
           "track": "116",
           "orbit_direction": "ascending",
           "date_range": "20230228 - 20230204",
-          "description": "Ascending Track 116"
+          "description": "Ascending Track 116",
+          "contains_events": [
+            "us6000jllz",
+            "us6000jlm1",
+            "us6000jlqa",
+            "us6000jm1y",
+            "us6000jlrc",
+            "us6000jqcn"
+          ]
         },
         {
           "dataset_id": "m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-D021",
@@ -15185,7 +17282,14 @@
           "track": "021",
           "orbit_direction": "descending",
           "date_range": "20230210 - 20230129",
-          "description": "Descending Track 021"
+          "description": "Descending Track 021",
+          "contains_events": [
+            "us6000jllz",
+            "us6000jlm1",
+            "us6000jlqa",
+            "us6000jm1y",
+            "us6000jlrc"
+          ]
         },
         {
           "dataset_id": "m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-D094",
@@ -15195,7 +17299,13 @@
           "track": "094",
           "orbit_direction": "descending",
           "date_range": "20230215 - 20230203",
-          "description": "Descending Track 094"
+          "description": "Descending Track 094",
+          "contains_events": [
+            "us6000jllz",
+            "us6000jlm1",
+            "us6000jlqa",
+            "us6000jlrc"
+          ]
         },
         {
           "dataset_id": "m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-D123",
@@ -15205,7 +17315,13 @@
           "track": "123",
           "orbit_direction": "descending",
           "date_range": "20230217 - 20230205",
-          "description": "Descending Track 123"
+          "description": "Descending Track 123",
+          "contains_events": [
+            "us6000jllz",
+            "us6000jlm1",
+            "us6000jlqa",
+            "us6000jm1y"
+          ]
         }
       ],
       "metadata": {
@@ -15213,7 +17329,91 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jllz",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000jlm1",
+          "name": "M 6.7 - 14 km E of Nurda\u011f\u0131, Turkey",
+          "magnitude": 6.7,
+          "time": "2023-02-06 01:28:15 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.2,
+          "distance_km": 11,
+          "epicenter": {
+            "lat": 37.1893,
+            "lon": 36.8929
+          },
+          "depth_km": 9.797,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlm1",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000jlqa",
+          "name": "M 7.5 - Elbistan earthquake, Kahramanmaras earthquake sequence",
+          "magnitude": 7.5,
+          "time": "2023-02-06 10:24:48 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": 9.1,
+          "distance_km": 89,
+          "epicenter": {
+            "lat": 38.0106,
+            "lon": 37.1962
+          },
+          "depth_km": 7.432,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlqa",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M7.5 vs M7.8); filed under the larger event"
+        },
+        {
+          "event_id": "us6000jm1y",
+          "name": "M 6.0 - 12 km W of \u00c7elikhan, Turkey",
+          "magnitude": 6,
+          "time": "2023-02-06 10:26:46 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 9.2,
+          "distance_km": 131,
+          "epicenter": {
+            "lat": 38.0315,
+            "lon": 38.0984
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jm1y",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000jlrc",
+          "name": "M 6.0 - 4 km NNE of G\u00f6ksun, Turkey",
+          "magnitude": 6,
+          "time": "2023-02-06 12:02:11 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 10.7,
+          "distance_km": 103,
+          "epicenter": {
+            "lat": 38.0582,
+            "lon": 36.5114
+          },
+          "depth_km": 8.516,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlrc",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000jqcn",
+          "name": "M 6.3 - 2 km NNW of Uzunba\u011f, Turkey",
+          "magnitude": 6.3,
+          "time": "2023-02-20 17:04:29 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 351.8,
+          "distance_km": 148,
+          "epicenter": {
+            "lat": 36.1616,
+            "lon": 36.0251
+          },
+          "depth_km": 16,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqcn",
+          "has_own_entry": true,
+          "note": "15 days apart; related only by the acquisition gap"
+        }
+      ]
     },
     {
       "event_id": "us6000jp76",
@@ -15333,7 +17533,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqcn",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us6000jllz",
+          "name": "M 7.8 - Pazarcik earthquake, Kahramanmaras earthquake sequence",
+          "relation": "aftershock",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us6000jqxc",
@@ -16250,7 +18458,11 @@
           "track": "013",
           "orbit_direction": "ascending",
           "date_range": "20231007 - 20230925",
-          "description": "Ascending Track 013"
+          "description": "Ascending Track 013",
+          "contains_events": [
+            "us6000ldpm",
+            "us6000ldpg"
+          ]
         },
         {
           "dataset_id": "m_63_25_km_nne_of_zindah_jan_afghanistan-D020",
@@ -16260,7 +18472,11 @@
           "track": "020",
           "orbit_direction": "descending",
           "date_range": "20231008 - 20230926",
-          "description": "Descending Track 020"
+          "description": "Descending Track 020",
+          "contains_events": [
+            "us6000ldpm",
+            "us6000ldpg"
+          ]
         }
       ],
       "metadata": {
@@ -16268,7 +18484,34 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldpm",
         "pager_alert": "orange"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000ldpg",
+          "name": "M 6.3 - 32 km NNE of Zindah J\u0101n, Afghanistan",
+          "magnitude": 6.3,
+          "time": "2023-10-07 06:41:03 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -0.5,
+          "distance_km": 7,
+          "epicenter": {
+            "lat": 34.5982,
+            "lon": 61.9263
+          },
+          "depth_km": 14,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldpg",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ],
+      "included_in": [
+        {
+          "event_id": "us6000len8",
+          "name": "M 6.3 - 24 km NNW of Her\u0101t, Afghanistan",
+          "relation": "doublet partner",
+          "datasets": 2
+        }
+      ]
     },
     {
       "event_id": "us6000len8",
@@ -16295,7 +18538,12 @@
           "track": "115",
           "orbit_direction": "ascending",
           "date_range": "20231014 - 20231002",
-          "description": "Ascending Track 115"
+          "description": "Ascending Track 115",
+          "contains_events": [
+            "us6000len8",
+            "us6000ldpg",
+            "us6000ldpm"
+          ]
         },
         {
           "dataset_id": "m_63_24_km_nnw_of_herat_afghanistan-D122",
@@ -16305,7 +18553,12 @@
           "track": "122",
           "orbit_direction": "descending",
           "date_range": "20231015 - 20231003",
-          "description": "Descending Track 122"
+          "description": "Descending Track 122",
+          "contains_events": [
+            "us6000len8",
+            "us6000ldpg",
+            "us6000ldpm"
+          ]
         }
       ],
       "metadata": {
@@ -16313,7 +18566,51 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000len8",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000ldpg",
+          "name": "M 6.3 - 32 km NNE of Zindah J\u0101n, Afghanistan",
+          "magnitude": 6.3,
+          "time": "2023-10-07 06:41:03 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -90.0,
+          "distance_km": 13,
+          "epicenter": {
+            "lat": 34.5982,
+            "lon": 61.9263
+          },
+          "depth_km": 14,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldpg",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        },
+        {
+          "event_id": "us6000ldpm",
+          "name": "M 6.3 - 25 km NNE of Zindah J\u0101n, Afghanistan",
+          "magnitude": 6.3,
+          "time": "2023-10-07 07:12:49 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -89.5,
+          "distance_km": 15,
+          "epicenter": {
+            "lat": 34.5442,
+            "lon": 61.8891
+          },
+          "depth_km": 8,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ldpm",
+          "has_own_entry": true,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ],
+      "included_in": [
+        {
+          "event_id": "us6000lfn5",
+          "name": "M 6.3 - 34 km NNW of Her\u0101t, Afghanistan",
+          "relation": "doublet partner",
+          "datasets": 2
+        }
+      ]
     },
     {
       "event_id": "us6000lfn5",
@@ -16340,7 +18637,11 @@
           "track": "013",
           "orbit_direction": "ascending",
           "date_range": "20231019 - 20231007",
-          "description": "Ascending Track 013"
+          "description": "Ascending Track 013",
+          "contains_events": [
+            "us6000lfn5",
+            "us6000len8"
+          ]
         },
         {
           "dataset_id": "m_63_34_km_nnw_of_herat_afghanistan-A115",
@@ -16350,7 +18651,10 @@
           "track": "115",
           "orbit_direction": "ascending",
           "date_range": "20231107 - 20231014",
-          "description": "Ascending Track 115"
+          "description": "Ascending Track 115",
+          "contains_events": [
+            "us6000lfn5"
+          ]
         },
         {
           "dataset_id": "m_63_34_km_nnw_of_herat_afghanistan-D020",
@@ -16360,7 +18664,11 @@
           "track": "020",
           "orbit_direction": "descending",
           "date_range": "20231020 - 20231008",
-          "description": "Descending Track 020"
+          "description": "Descending Track 020",
+          "contains_events": [
+            "us6000lfn5",
+            "us6000len8"
+          ]
         },
         {
           "dataset_id": "m_63_34_km_nnw_of_herat_afghanistan-D122",
@@ -16370,7 +18678,10 @@
           "track": "122",
           "orbit_direction": "descending",
           "date_range": "20231027 - 20231015",
-          "description": "Descending Track 122"
+          "description": "Descending Track 122",
+          "contains_events": [
+            "us6000lfn5"
+          ]
         }
       ],
       "metadata": {
@@ -16378,7 +18689,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lfn5",
         "pager_alert": "orange"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000len8",
+          "name": "M 6.3 - 24 km NNW of Her\u0101t, Afghanistan",
+          "magnitude": 6.3,
+          "time": "2023-10-11 00:41:55 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -98.9,
+          "distance_km": 15,
+          "epicenter": {
+            "lat": 34.5364,
+            "lon": 62.0509
+          },
+          "depth_km": 8,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000len8",
+          "has_own_entry": true,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ]
     },
     {
       "event_id": "us7000l7si",
@@ -16595,7 +18925,16 @@
           "track": "163",
           "orbit_direction": "descending",
           "date_range": "20231204 - 20231122",
-          "description": "Descending Track 163"
+          "description": "Descending Track 163",
+          "contains_events": [
+            "us7000lff4",
+            "us7000lfi0",
+            "us7000lfjr",
+            "us7000lgan",
+            "us7000lftp",
+            "us7000lfwj",
+            "us7000lfxx"
+          ]
         }
       ],
       "metadata": {
@@ -16603,7 +18942,105 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lff4",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000lfi0",
+          "name": "M 6.4 - 47 km NE of Barcelona, Philippines",
+          "magnitude": 6.4,
+          "time": "2023-12-02 16:03:41 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 1.4,
+          "distance_km": 39,
+          "epicenter": {
+            "lat": 8.4377,
+            "lon": 126.757
+          },
+          "depth_km": 35,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfi0",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000lfjr",
+          "name": "M 6.1 - 41 km NE of Barcelona, Philippines",
+          "magnitude": 6.1,
+          "time": "2023-12-02 17:40:15 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 3.1,
+          "distance_km": 36,
+          "epicenter": {
+            "lat": 8.423,
+            "lon": 126.722
+          },
+          "depth_km": 36.091,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfjr",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000lgan",
+          "name": "M 6.0 - 49 km NE of Barcelona, Philippines",
+          "magnitude": 6,
+          "time": "2023-12-02 20:52:15 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 6.3,
+          "distance_km": 41,
+          "epicenter": {
+            "lat": 8.4475,
+            "lon": 126.7782
+          },
+          "depth_km": 9,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lgan",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000lftp",
+          "name": "M 6.6 - 47 km ENE of Hinatuan, Philippines",
+          "magnitude": 6.6,
+          "time": "2023-12-03 10:35:52 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 20.0,
+          "distance_km": 36,
+          "epicenter": {
+            "lat": 8.488,
+            "lon": 126.7454
+          },
+          "depth_km": 19,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lftp",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000lfwj",
+          "name": "M 6.0 - 58 km E of Marihatag, Philippines",
+          "magnitude": 6,
+          "time": "2023-12-03 14:35:56 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 24.0,
+          "distance_km": 50,
+          "epicenter": {
+            "lat": 8.732,
+            "lon": 126.823
+          },
+          "depth_km": 13,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfwj",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000lfxx",
+          "name": "M 6.9 - 34 km ENE of Aras-asan, Philippines",
+          "magnitude": 6.9,
+          "time": "2023-12-03 19:49:35 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 29.2,
+          "distance_km": 54,
+          "epicenter": {
+            "lat": 8.9705,
+            "lon": 126.6121
+          },
+          "depth_km": 20,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lfxx",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us6000m0n6",
@@ -16695,7 +19132,11 @@
           "track": "017",
           "orbit_direction": "descending",
           "date_range": "20240111 - 20231230",
-          "description": "Descending Track 017"
+          "description": "Descending Track 017",
+          "contains_events": [
+            "us6000m0xl",
+            "us6000m0xm"
+          ]
         },
         {
           "dataset_id": "m_75_2024_noto_peninsula_japan_earthquake-D119",
@@ -16705,7 +19146,11 @@
           "track": "119",
           "orbit_direction": "descending",
           "date_range": "20240106 - 20231225",
-          "description": "Descending Track 119"
+          "description": "Descending Track 119",
+          "contains_events": [
+            "us6000m0xl",
+            "us6000m0xm"
+          ]
         }
       ],
       "metadata": {
@@ -16713,7 +19158,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m0xl",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000m0xm",
+          "name": "M 6.2 - 8 km SW of Anamizu, Japan",
+          "magnitude": 6.2,
+          "time": "2024-01-01 07:18:41 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.1,
+          "distance_km": 51,
+          "epicenter": {
+            "lat": 37.1895,
+            "lon": 136.8272
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000m0xm",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us7000lsze",
@@ -16850,7 +19313,11 @@
           "track": "069",
           "orbit_direction": "ascending",
           "date_range": "20240408 - 20240327",
-          "description": "Ascending Track 069"
+          "description": "Ascending Track 069",
+          "contains_events": [
+            "us7000m9g4",
+            "us7000m9gc"
+          ]
         },
         {
           "dataset_id": "m_74_15_km_s_of_hualien_city_taiwan-D105",
@@ -16860,7 +19327,11 @@
           "track": "105",
           "orbit_direction": "descending",
           "date_range": "20240410 - 20240329",
-          "description": "Descending Track 105"
+          "description": "Descending Track 105",
+          "contains_events": [
+            "us7000m9g4",
+            "us7000m9gc"
+          ]
         }
       ],
       "metadata": {
@@ -16868,7 +19339,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9g4",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000m9gc",
+          "name": "M 6.4 - 15 km NNE of Hualien City, Taiwan",
+          "magnitude": 6.4,
+          "time": "2024-04-03 00:11:25 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.2,
+          "distance_km": 31,
+          "epicenter": {
+            "lat": 24.1021,
+            "lon": 121.6812
+          },
+          "depth_km": 13.931,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000m9gc",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us7000m9sq",
@@ -17010,7 +19499,11 @@
           "track": "069",
           "orbit_direction": "ascending",
           "date_range": "20240502 - 20240420",
-          "description": "Ascending Track 069"
+          "description": "Ascending Track 069",
+          "contains_events": [
+            "us6000mt0s",
+            "us6000mt0r"
+          ]
         },
         {
           "dataset_id": "m_61_13_km_ssw_of_hualien_city_taiwan-D105",
@@ -17020,7 +19513,11 @@
           "track": "105",
           "orbit_direction": "descending",
           "date_range": "20240422 - 20240410",
-          "description": "Descending Track 105"
+          "description": "Descending Track 105",
+          "contains_events": [
+            "us6000mt0s",
+            "us6000mt0r"
+          ]
         }
       ],
       "metadata": {
@@ -17028,7 +19525,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mt0s",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000mt0r",
+          "name": "M 6.1 - 29 km S of Hualien City, Taiwan",
+          "magnitude": 6.1,
+          "time": "2024-04-22 18:26:52 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -0.1,
+          "distance_km": 19,
+          "epicenter": {
+            "lat": 23.7141,
+            "lon": 121.6599
+          },
+          "depth_km": 9,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mt0r",
+          "has_own_entry": false,
+          "note": "equal magnitude; filed under the later event"
+        }
+      ]
     },
     {
       "event_id": "us6000mwjd",
@@ -17200,7 +19716,12 @@
           "track": "018",
           "orbit_direction": "ascending",
           "date_range": "20240709 - 20240615",
-          "description": "Ascending Track 018"
+          "description": "Ascending Track 018",
+          "contains_events": [
+            "us6000n8tq",
+            "us7000mstj",
+            "us6000n948"
+          ]
         },
         {
           "dataset_id": "m_72_10_km_wsw_of_atiquipa_peru-A120",
@@ -17210,7 +19731,12 @@
           "track": "120",
           "orbit_direction": "ascending",
           "date_range": "20240728 - 20240610",
-          "description": "Ascending Track 120"
+          "description": "Ascending Track 120",
+          "contains_events": [
+            "us6000n8tq",
+            "us7000mstj",
+            "us6000n948"
+          ]
         },
         {
           "dataset_id": "m_72_10_km_wsw_of_atiquipa_peru-D025",
@@ -17220,7 +19746,12 @@
           "track": "025",
           "orbit_direction": "descending",
           "date_range": "20240710 - 20240616",
-          "description": "Descending Track 025"
+          "description": "Descending Track 025",
+          "contains_events": [
+            "us6000n8tq",
+            "us7000mstj",
+            "us6000n948"
+          ]
         },
         {
           "dataset_id": "m_72_10_km_wsw_of_atiquipa_peru-D098",
@@ -17230,7 +19761,12 @@
           "track": "098",
           "orbit_direction": "descending",
           "date_range": "20240703 - 20240504",
-          "description": "Descending Track 098"
+          "description": "Descending Track 098",
+          "contains_events": [
+            "us6000n8tq",
+            "us7000mstj",
+            "us6000n948"
+          ]
         }
       ],
       "metadata": {
@@ -17238,7 +19774,42 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n8tq",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000mstj",
+          "name": "M 6.0 - 10 km SW of Atiquipa, Peru",
+          "magnitude": 6,
+          "time": "2024-06-16 14:47:33 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -278.8,
+          "distance_km": 4,
+          "epicenter": {
+            "lat": -15.8557,
+            "lon": -74.4353
+          },
+          "depth_km": 27,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mstj",
+          "has_own_entry": false,
+          "note": "12 days apart; related only by the acquisition gap"
+        },
+        {
+          "event_id": "us6000n948",
+          "name": "M 6.1 - 34 km SW of Atiquipa, Peru",
+          "magnitude": 6.1,
+          "time": "2024-06-29 07:05:32 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 25.5,
+          "distance_km": 27,
+          "epicenter": {
+            "lat": -16.0485,
+            "lon": -74.556
+          },
+          "depth_km": 18,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n948",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us7000n0s8",
@@ -17310,7 +19881,11 @@
           "track": "163",
           "orbit_direction": "descending",
           "date_range": "20240812 - 20240731",
-          "description": "Descending Track 163"
+          "description": "Descending Track 163",
+          "contains_events": [
+            "us6000nhqc",
+            "us6000nht0"
+          ]
         }
       ],
       "metadata": {
@@ -17318,7 +19893,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nhqc",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000nht0",
+          "name": "M 6.3 - 44 km E of Barcelona, Philippines",
+          "magnitude": 6.3,
+          "time": "2024-08-03 04:20:26 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 6.0,
+          "distance_km": 24,
+          "epicenter": {
+            "lat": 8.2038,
+            "lon": 126.8354
+          },
+          "depth_km": 15,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nht0",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us6000nith",
@@ -18315,7 +20908,11 @@
           "track": "070",
           "orbit_direction": "ascending",
           "date_range": "20250403 - 20250322",
-          "description": "Ascending Track 070"
+          "description": "Ascending Track 070",
+          "contains_events": [
+            "us7000pn9s",
+            "us7000pn9z"
+          ]
         },
         {
           "dataset_id": "m_77_2025_mandalay_burma_myanmar_earthquake-A143",
@@ -18325,7 +20922,11 @@
           "track": "143",
           "orbit_direction": "ascending",
           "date_range": "20250408 - 20250327",
-          "description": "Ascending Track 143"
+          "description": "Ascending Track 143",
+          "contains_events": [
+            "us7000pn9s",
+            "us7000pn9z"
+          ]
         },
         {
           "dataset_id": "m_77_2025_mandalay_burma_myanmar_earthquake-D033",
@@ -18335,7 +20936,11 @@
           "track": "033",
           "orbit_direction": "descending",
           "date_range": "20250331 - 20250319",
-          "description": "Descending Track 033"
+          "description": "Descending Track 033",
+          "contains_events": [
+            "us7000pn9s",
+            "us7000pn9z"
+          ]
         },
         {
           "dataset_id": "m_77_2025_mandalay_burma_myanmar_earthquake-D106",
@@ -18345,7 +20950,11 @@
           "track": "106",
           "orbit_direction": "descending",
           "date_range": "20250405 - 20250324",
-          "description": "Descending Track 106"
+          "description": "Descending Track 106",
+          "contains_events": [
+            "us7000pn9s",
+            "us7000pn9z"
+          ]
         }
       ],
       "metadata": {
@@ -18353,7 +20962,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn9s",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000pn9z",
+          "name": "M 6.7 - Burma (Myanmar)",
+          "magnitude": 6.7,
+          "time": "2025-03-28 06:32:04 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.2,
+          "distance_km": 35,
+          "epicenter": {
+            "lat": 21.6975,
+            "lon": 95.969
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn9z",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us7000ppfy",
@@ -18810,7 +21437,10 @@
           "track": "153",
           "orbit_direction": "ascending",
           "date_range": "20250720 - 20250708",
-          "description": "Ascending Track 153"
+          "description": "Ascending Track 153",
+          "contains_events": [
+            "us7000qd1y"
+          ]
         },
         {
           "dataset_id": "m_73_2025_sand_point_alaska_earthquake-D073",
@@ -18820,7 +21450,10 @@
           "track": "073",
           "orbit_direction": "descending",
           "date_range": "20250720 - 20250708",
-          "description": "Descending Track 073"
+          "description": "Descending Track 073",
+          "contains_events": [
+            "us7000qd1y"
+          ]
         },
         {
           "dataset_id": "m_73_2025_sand_point_alaska_earthquake-D102",
@@ -18830,7 +21463,11 @@
           "track": "102",
           "orbit_direction": "descending",
           "date_range": "20250722 - 20250710",
-          "description": "Descending Track 102"
+          "description": "Descending Track 102",
+          "contains_events": [
+            "us7000qd1y",
+            "us7000qe51"
+          ]
         }
       ],
       "metadata": {
@@ -18838,7 +21475,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qd1y",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000qe51",
+          "name": "M 6.2 - 91 km SSE of Sand Point, Alaska",
+          "magnitude": 6.2,
+          "time": "2025-07-20 22:28:00 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 97.8,
+          "distance_km": 41,
+          "epicenter": {
+            "lat": 54.6051,
+            "lon": -159.8382
+          },
+          "depth_km": 40,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qe51",
+          "has_own_entry": true
+        }
+      ]
     },
     {
       "event_id": "us7000qdyl",
@@ -18865,7 +21520,13 @@
           "track": "111",
           "orbit_direction": "ascending",
           "date_range": "20250723 - 20250711",
-          "description": "Ascending Track 111"
+          "description": "Ascending Track 111",
+          "contains_events": [
+            "us7000qdyl",
+            "us7000qdye",
+            "us7000qdyw",
+            "us7000qdz2"
+          ]
         }
       ],
       "metadata": {
@@ -18873,7 +21534,65 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyl",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000qdye",
+          "name": "M 6.6 - 134 km E of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.6,
+          "time": "2025-07-20 06:28:17 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -0.3,
+          "distance_km": 12,
+          "epicenter": {
+            "lat": 52.9286,
+            "lon": 160.6233
+          },
+          "depth_km": 23,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdye",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000qdyw",
+          "name": "M 6.6 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.6,
+          "time": "2025-07-20 07:07:42 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.3,
+          "distance_km": 18,
+          "epicenter": {
+            "lat": 52.6981,
+            "lon": 160.8332
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyw",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us7000qdz2",
+          "name": "M 6.5 - 143 km E of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.5,
+          "time": "2025-07-20 07:23:02 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.6,
+          "distance_km": 8,
+          "epicenter": {
+            "lat": 52.8915,
+            "lon": 160.7461
+          },
+          "depth_km": 34.991,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdz2",
+          "has_own_entry": false
+        }
+      ],
+      "included_in": [
+        {
+          "event_id": "us6000qw60",
+          "name": "M 8.8 - 2025 Kamchatka Peninsula, Russia Earthquake",
+          "relation": "foreshock",
+          "datasets": 2
+        }
+      ]
     },
     {
       "event_id": "us7000qe51",
@@ -18918,7 +21637,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qe51",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us7000qd1y",
+          "name": "M 7.3 - 2025 Sand Point, Alaska Earthquake",
+          "relation": "aftershock",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us6000qw60",
@@ -18945,7 +21672,12 @@
           "track": "009",
           "orbit_direction": "ascending",
           "date_range": "20250803 - 20250722",
-          "description": "Ascending Track 009"
+          "description": "Ascending Track 009",
+          "contains_events": [
+            "us6000qw60",
+            "us6000r0qc",
+            "us6000qxt4"
+          ]
         },
         {
           "dataset_id": "m_88_2025_kamchatka_peninsula_russia_earthquake-A038",
@@ -18955,7 +21687,17 @@
           "track": "038",
           "orbit_direction": "ascending",
           "date_range": "20250730 - 20250718",
-          "description": "Ascending Track 038"
+          "description": "Ascending Track 038",
+          "contains_events": [
+            "us6000qw60",
+            "us7000qdye",
+            "us7000qdyl",
+            "us7000qdyw",
+            "us7000qdz2",
+            "us6000r0y5",
+            "us6000r0xw",
+            "us6000qw6q"
+          ]
         },
         {
           "dataset_id": "m_88_2025_kamchatka_peninsula_russia_earthquake-A082",
@@ -18965,7 +21707,10 @@
           "track": "082",
           "orbit_direction": "ascending",
           "date_range": "20250808 - 20250727",
-          "description": "Ascending Track 082"
+          "description": "Ascending Track 082",
+          "contains_events": [
+            "us6000qw60"
+          ]
         },
         {
           "dataset_id": "m_88_2025_kamchatka_peninsula_russia_earthquake-A111",
@@ -18975,7 +21720,16 @@
           "track": "111",
           "orbit_direction": "ascending",
           "date_range": "20250804 - 20250723",
-          "description": "Ascending Track 111"
+          "description": "Ascending Track 111",
+          "contains_events": [
+            "us6000qw60",
+            "us6000r0y5",
+            "us6000r0xw",
+            "us6000r0qc",
+            "us6000qwhj",
+            "us6000qw6q",
+            "us6000qxt4"
+          ]
         },
         {
           "dataset_id": "m_88_2025_kamchatka_peninsula_russia_earthquake-D031",
@@ -18985,7 +21739,10 @@
           "track": "031",
           "orbit_direction": "descending",
           "date_range": "20250822 - 20250729",
-          "description": "Descending Track 031"
+          "description": "Descending Track 031",
+          "contains_events": [
+            "us6000qw60"
+          ]
         },
         {
           "dataset_id": "m_88_2025_kamchatka_peninsula_russia_earthquake-D060",
@@ -18995,7 +21752,19 @@
           "track": "060",
           "orbit_direction": "descending",
           "date_range": "20250731 - 20250719",
-          "description": "Descending Track 060"
+          "description": "Descending Track 060",
+          "contains_events": [
+            "us6000qw60",
+            "us7000qdye",
+            "us7000qdyl",
+            "us7000qdyw",
+            "us7000qdz2",
+            "us6000r0y5",
+            "us6000r0xw",
+            "us6000r0qc",
+            "us6000qwhj",
+            "us6000qw6q"
+          ]
         },
         {
           "dataset_id": "m_88_2025_kamchatka_peninsula_russia_earthquake-D133",
@@ -19005,7 +21774,14 @@
           "track": "133",
           "orbit_direction": "descending",
           "date_range": "20250817 - 20250712",
-          "description": "Descending Track 133"
+          "description": "Descending Track 133",
+          "contains_events": [
+            "us6000qw60",
+            "us6000r0qc",
+            "us6000qwhj",
+            "us6000qw6q",
+            "us6000qxt4"
+          ]
         }
       ],
       "metadata": {
@@ -19013,7 +21789,173 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000qdye",
+          "name": "M 6.6 - 134 km E of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.6,
+          "time": "2025-07-20 06:28:17 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -232.9,
+          "distance_km": 55,
+          "epicenter": {
+            "lat": 52.9286,
+            "lon": 160.6233
+          },
+          "depth_km": 23,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdye",
+          "has_own_entry": false,
+          "note": "10 days apart; related only by the acquisition gap"
+        },
+        {
+          "event_id": "us7000qdyl",
+          "name": "M 7.4 - 2025 Eastern Kamchatka, Russia Earthquake",
+          "magnitude": 7.4,
+          "time": "2025-07-20 06:49:04 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -232.6,
+          "distance_km": 48,
+          "epicenter": {
+            "lat": 52.8301,
+            "lon": 160.6816
+          },
+          "depth_km": 34,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyl",
+          "has_own_entry": true,
+          "note": "10 days apart; related only by the acquisition gap"
+        },
+        {
+          "event_id": "us7000qdyw",
+          "name": "M 6.6 - 153 km ESE of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.6,
+          "time": "2025-07-20 07:07:42 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -232.3,
+          "distance_km": 46,
+          "epicenter": {
+            "lat": 52.6981,
+            "lon": 160.8332
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyw",
+          "has_own_entry": false,
+          "note": "10 days apart; related only by the acquisition gap"
+        },
+        {
+          "event_id": "us7000qdz2",
+          "name": "M 6.5 - 143 km E of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.5,
+          "time": "2025-07-20 07:23:02 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -232.0,
+          "distance_km": 56,
+          "epicenter": {
+            "lat": 52.8915,
+            "lon": 160.7461
+          },
+          "depth_km": 34.991,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdz2",
+          "has_own_entry": false,
+          "note": "10 days apart; related only by the acquisition gap"
+        },
+        {
+          "event_id": "us6000r0y5",
+          "name": "M 6.3 - 94 km SE of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.3,
+          "time": "2025-07-29 23:30:03 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.1,
+          "distance_km": 36,
+          "epicenter": {
+            "lat": 52.5195,
+            "lon": 159.7031
+          },
+          "depth_km": 16.375,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0y5",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000r0xw",
+          "name": "M 6.1 - 78 km SE of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.1,
+          "time": "2025-07-29 23:30:44 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.1,
+          "distance_km": 48,
+          "epicenter": {
+            "lat": 52.6498,
+            "lon": 159.5787
+          },
+          "depth_km": 25.423,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0xw",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000r0qc",
+          "name": "M 6.0 - 124 km ENE of Ozernovskiy, Russia",
+          "magnitude": 6,
+          "time": "2025-07-29 23:36:01 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.2,
+          "distance_km": 159,
+          "epicenter": {
+            "lat": 51.7541,
+            "lon": 158.2503
+          },
+          "depth_km": 35,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000r0qc",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000qwhj",
+          "name": "M 6.0 - 165 km SSE of Vilyuchinsk, Russia",
+          "magnitude": 6,
+          "time": "2025-07-29 23:37:34 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.2,
+          "distance_km": 133,
+          "epicenter": {
+            "lat": 51.5092,
+            "lon": 159.126
+          },
+          "depth_km": 35,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwhj",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000qw6q",
+          "name": "M 6.9 - 125 km SE of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6.9,
+          "time": "2025-07-30 00:09:58 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.8,
+          "distance_km": 45,
+          "epicenter": {
+            "lat": 52.1946,
+            "lon": 159.8008
+          },
+          "depth_km": 36.622,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw6q",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000qxt4",
+          "name": "M 6.8 - 123 km E of Severo-Kuril\u2019sk, Russia",
+          "magnitude": 6.8,
+          "time": "2025-08-03 05:37:55 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 102.2,
+          "distance_km": 268,
+          "epicenter": {
+            "lat": 50.5853,
+            "lon": 157.8643
+          },
+          "depth_km": 30,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qxt4",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us6000qznb",
@@ -19415,7 +22357,10 @@
           "track": "038",
           "orbit_direction": "ascending",
           "date_range": "20250928 - 20250916",
-          "description": "Ascending Track 038"
+          "description": "Ascending Track 038",
+          "contains_events": [
+            "us7000qx2g"
+          ]
         },
         {
           "dataset_id": "m_78_140_km_e_of_petropavlovskkamchatsky_russia-A111",
@@ -19425,7 +22370,11 @@
           "track": "111",
           "orbit_direction": "ascending",
           "date_range": "20250921 - 20250909",
-          "description": "Ascending Track 111"
+          "description": "Ascending Track 111",
+          "contains_events": [
+            "us7000qx2g",
+            "us7000qwch"
+          ]
         },
         {
           "dataset_id": "m_78_140_km_e_of_petropavlovskkamchatsky_russia-D060",
@@ -19435,7 +22384,10 @@
           "track": "060",
           "orbit_direction": "descending",
           "date_range": "20250929 - 20250917",
-          "description": "Descending Track 060"
+          "description": "Descending Track 060",
+          "contains_events": [
+            "us7000qx2g"
+          ]
         }
       ],
       "metadata": {
@@ -19443,7 +22395,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2g",
         "pager_alert": "orange"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000qwch",
+          "name": "M 6.0 - 144 km ESE of Petropavlovsk-Kamchatsky, Russia",
+          "magnitude": 6,
+          "time": "2025-09-15 16:34:35 UTC",
+          "relation": "foreshock",
+          "hours_from_mainshock": -74.4,
+          "distance_km": 50,
+          "epicenter": {
+            "lat": 52.6973,
+            "lon": 160.6791
+          },
+          "depth_km": 15,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qwch",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us6000rcqw",
@@ -19470,7 +22440,11 @@
           "track": "004",
           "orbit_direction": "ascending",
           "date_range": "20250925 - 20250919",
-          "description": "Ascending Track 004"
+          "description": "Ascending Track 004",
+          "contains_events": [
+            "us6000rcqw",
+            "us6000rcnw"
+          ]
         },
         {
           "dataset_id": "m_63_25_km_ene_of_mene_grande_venezuela-A106",
@@ -19480,7 +22454,11 @@
           "track": "106",
           "orbit_direction": "ascending",
           "date_range": "20250926 - 20250914",
-          "description": "Ascending Track 106"
+          "description": "Ascending Track 106",
+          "contains_events": [
+            "us6000rcqw",
+            "us6000rcnw"
+          ]
         },
         {
           "dataset_id": "m_63_25_km_ene_of_mene_grande_venezuela-D098",
@@ -19490,7 +22468,11 @@
           "track": "098",
           "orbit_direction": "descending",
           "date_range": "20250926 - 20250920",
-          "description": "Descending Track 098"
+          "description": "Descending Track 098",
+          "contains_events": [
+            "us6000rcqw",
+            "us6000rcnw"
+          ]
         },
         {
           "dataset_id": "m_63_25_km_ene_of_mene_grande_venezuela-D171",
@@ -19500,7 +22482,11 @@
           "track": "171",
           "orbit_direction": "descending",
           "date_range": "20250925 - 20250919",
-          "description": "Descending Track 171"
+          "description": "Descending Track 171",
+          "contains_events": [
+            "us6000rcqw",
+            "us6000rcnw"
+          ]
         }
       ],
       "metadata": {
@@ -19508,7 +22494,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcqw",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000rcnw",
+          "name": "M 6.2 - 5 km ENE of Mene Grande, Venezuela",
+          "magnitude": 6.2,
+          "time": "2025-09-24 22:21:55 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -5.5,
+          "distance_km": 20,
+          "epicenter": {
+            "lat": 9.8668,
+            "lon": -70.8781
+          },
+          "depth_km": 9,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcnw",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M6.2 vs M6.3); filed under the larger event"
+        }
+      ]
     },
     {
       "event_id": "us6000rdrz",
@@ -20475,7 +23480,11 @@
           "track": "033",
           "orbit_direction": "ascending",
           "date_range": "20260625 - 20260618",
-          "description": "Ascending Track 033"
+          "description": "Ascending Track 033",
+          "contains_events": [
+            "us6000t7zp",
+            "us6000t7zc"
+          ]
         },
         {
           "dataset_id": "m_75_17_km_w_of_catia_la_mar_venezuela-A106",
@@ -20485,7 +23494,11 @@
           "track": "106",
           "orbit_direction": "ascending",
           "date_range": "20260624 - 20260623",
-          "description": "Ascending Track 106"
+          "description": "Ascending Track 106",
+          "contains_events": [
+            "us6000t7zp",
+            "us6000t7zc"
+          ]
         },
         {
           "dataset_id": "m_75_20_km_w_of_catia_la_mar_venezuela-A135",
@@ -20495,7 +23508,10 @@
           "track": "135",
           "orbit_direction": "ascending",
           "date_range": "20260625 - 20260613",
-          "description": "Ascending Track 135"
+          "description": "Ascending Track 135",
+          "contains_events": [
+            "us6000t7zp"
+          ]
         },
         {
           "dataset_id": "m_75_20_km_w_of_catia_la_mar_venezuela-D025",
@@ -20505,7 +23521,11 @@
           "track": "025",
           "orbit_direction": "descending",
           "date_range": "20260625 - 20260618",
-          "description": "Descending Track 025"
+          "description": "Descending Track 025",
+          "contains_events": [
+            "us6000t7zp",
+            "us6000t7zc"
+          ]
         },
         {
           "dataset_id": "m_75_20_km_w_of_catia_la_mar_venezuela-D098",
@@ -20515,7 +23535,11 @@
           "track": "098",
           "orbit_direction": "descending",
           "date_range": "20260630 - 20260605",
-          "description": "Descending Track 098"
+          "description": "Descending Track 098",
+          "contains_events": [
+            "us6000t7zp",
+            "us6000t7zc"
+          ]
         }
       ],
       "metadata": {
@@ -20523,7 +23547,26 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
         "pager_alert": "red"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000t7zc",
+          "name": "M 7.2 - 20 km E of San Felipe, Venezuela",
+          "magnitude": 7.2,
+          "time": "2026-06-24 22:04:31 UTC",
+          "relation": "doublet partner",
+          "hours_from_mainshock": -0.0,
+          "distance_km": 148,
+          "epicenter": {
+            "lat": 10.3713,
+            "lon": -68.5564
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zc",
+          "has_own_entry": false,
+          "note": "doublet by magnitude (M7.2 vs M7.5); filed under the larger event; epicentres 148 km apart, beyond the mainshock's rupture length + 30 km"
+        }
+      ]
     },
     {
       "event_id": "us6000t7zq",
@@ -20550,7 +23593,11 @@
           "track": "068",
           "orbit_direction": "ascending",
           "date_range": "20260704 - 20260603",
-          "description": "Ascending Track 068"
+          "description": "Ascending Track 068",
+          "contains_events": [
+            "us6000t7zq",
+            "us6000t9ej"
+          ]
         },
         {
           "dataset_id": "m_69_35_km_ene_of_noda_japan-A141",
@@ -20560,7 +23607,10 @@
           "track": "141",
           "orbit_direction": "ascending",
           "date_range": "20260627 - 20260608",
-          "description": "Ascending Track 141"
+          "description": "Ascending Track 141",
+          "contains_events": [
+            "us6000t7zq"
+          ]
         },
         {
           "dataset_id": "m_69_35_km_ene_of_noda_japan-D046",
@@ -20570,7 +23620,10 @@
           "track": "046",
           "orbit_direction": "descending",
           "date_range": "20260626 - 20260619",
-          "description": "Descending Track 046"
+          "description": "Descending Track 046",
+          "contains_events": [
+            "us6000t7zq"
+          ]
         }
       ],
       "metadata": {
@@ -20578,7 +23631,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zq",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000t9ej",
+          "name": "M 6.0 - 54 km ENE of Noda, Japan",
+          "magnitude": 6,
+          "time": "2026-07-01 12:08:29 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 157.6,
+          "distance_km": 23,
+          "epicenter": {
+            "lat": 40.2085,
+            "lon": 142.4411
+          },
+          "depth_km": 35,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ej",
+          "has_own_entry": true
+        }
+      ]
     },
     {
       "event_id": "us6000t99j",
@@ -20678,7 +23749,15 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ej",
         "pager_alert": "green"
       },
-      "has_model": false
+      "has_model": false,
+      "included_in": [
+        {
+          "event_id": "us6000t7zq",
+          "name": "M 6.9 - 35 km ENE of Noda, Japan",
+          "relation": "aftershock",
+          "datasets": 1
+        }
+      ]
     },
     {
       "event_id": "us7000t1bu",
@@ -20705,7 +23784,11 @@
           "track": "034",
           "orbit_direction": "ascending",
           "date_range": "20260720 - 20260714",
-          "description": "Ascending Track 034"
+          "description": "Ascending Track 034",
+          "contains_events": [
+            "us7000t1bu",
+            "us7000t1cc"
+          ]
         },
         {
           "dataset_id": "m_73_52_km_w_of_puerto_madero_mexico-D099",
@@ -20715,7 +23798,11 @@
           "track": "099",
           "orbit_direction": "descending",
           "date_range": "20260718 - 20260706",
-          "description": "Descending Track 099"
+          "description": "Descending Track 099",
+          "contains_events": [
+            "us7000t1bu",
+            "us7000t1cc"
+          ]
         }
       ],
       "metadata": {
@@ -20723,7 +23810,25 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu",
         "pager_alert": "yellow"
       },
-      "has_model": false
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us7000t1cc",
+          "name": "M 6.4 - 96 km SW of Puerto Madero, Mexico",
+          "magnitude": 6.4,
+          "time": "2026-07-17 15:20:06 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.5,
+          "distance_km": 45,
+          "epicenter": {
+            "lat": 14.203,
+            "lon": -93.1389
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1cc",
+          "has_own_entry": false
+        }
+      ]
     },
     {
       "event_id": "us7000t37a",
