@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_86_km_sse_of_panguna_papua_new_guinea-A096",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          155.004584137,
+          -9.422224649
+        ],
+        [
+          158.035697673,
+          -9.422224649
+        ],
+        [
+          158.035697673,
+          -5.607777153
+        ],
+        [
+          155.004584137,
+          -5.607777153
+        ],
+        [
+          155.004584137,
+          -9.422224649
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    155.004584137,
+    -9.422224649,
+    158.035697673,
+    -5.607777153
+  ],
+  "properties": {
+    "title": "2026 M 6.2 - 86 km SSE of Panguna, Papua New Guinea \u2014 Ascending Track 096",
+    "start_datetime": "2026-10-10T00:00:00+00:00",
+    "end_datetime": "2026-10-22T00:00:00+00:00",
+    "coseis:event_id": "us6000u1kv",
+    "coseis:event_name": "2026 M 6.2 - 86 km SSE of Panguna, Papua New Guinea",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2026-10-11",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 31,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "096",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-10-22T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000u1kv/m_62_86_km_sse_of_panguna_papua_new_guinea-A096/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_62_86_km_sse_of_panguna_papua_new_guinea_us6000u1kv/S1-COSEIS_SAR-A-R-096-tops-20261022_20261010-075639-00155E_00009S-PP-2fd0-v1_0_0/S1-COSEIS_SAR-A-R-096-tops-20261022_20261010-075639-00155E_00009S-PP-2fd0-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

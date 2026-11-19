@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_77_10_km_wsw_of_pitaloza_arriba_panama-A121",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -80.54273852300001,
+          6.703847362999999
+        ],
+        [
+          -77.87079194100001,
+          6.703847362999999
+        ],
+        [
+          -77.87079194100001,
+          8.975515846999999
+        ],
+        [
+          -80.54273852300001,
+          8.975515846999999
+        ],
+        [
+          -80.54273852300001,
+          6.703847362999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -80.54273852300001,
+    6.703847362999999,
+    -77.87079194100001,
+    8.975515846999999
+  ],
+  "properties": {
+    "title": "2026 M 7.7 - 10 km WSW of Pitaloza Arriba, Panama \u2014 Ascending Track 121",
+    "start_datetime": "2026-10-05T00:00:00+00:00",
+    "end_datetime": "2026-10-17T00:00:00+00:00",
+    "coseis:event_id": "us6000u18k",
+    "coseis:event_name": "2026 M 7.7 - 10 km WSW of Pitaloza Arriba, Panama",
+    "coseis:magnitude": 7.7,
+    "coseis:event_date": "2026-10-09",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "121",
+    "coseis:satellites": "Sentinel-1D_Sentinel-1D",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-10-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000u18k/m_77_10_km_wsw_of_pitaloza_arriba_panama-A121/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_77_10_km_wsw_of_pitaloza_arriba_panama_us6000u18k/S1-COSEIS_SAR-A-R-121-tops-20261017_20261005-233056-00081W_00007N-PP-b6e2-v1_0_0/S1-COSEIS_SAR-A-R-121-tops-20261017_20261005-233056-00081W_00007N-PP-b6e2-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

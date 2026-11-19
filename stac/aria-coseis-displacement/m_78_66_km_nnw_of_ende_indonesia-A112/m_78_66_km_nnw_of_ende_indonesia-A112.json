@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_78_66_km_nnw_of_ende_indonesia-A112",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.232639875,
+          -10.065835475
+        ],
+        [
+          123.252364513,
+          -10.065835475
+        ],
+        [
+          123.252364513,
+          -6.5783326849999995
+        ],
+        [
+          120.232639875,
+          -6.5783326849999995
+        ],
+        [
+          120.232639875,
+          -10.065835475
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    120.232639875,
+    -10.065835475,
+    123.252364513,
+    -6.5783326849999995
+  ],
+  "properties": {
+    "title": "2026 M 7.8 - 66 km NNW of Ende, Indonesia \u2014 Ascending Track 112",
+    "start_datetime": "2026-08-06T00:00:00+00:00",
+    "end_datetime": "2026-08-18T00:00:00+00:00",
+    "coseis:event_id": "us6000tkt2",
+    "coseis:event_name": "2026 M 7.8 - 66 km NNW of Ende, Indonesia",
+    "coseis:magnitude": 7.8,
+    "coseis:event_date": "2026-08-14",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "112",
+    "coseis:satellites": "Sentinel-1D_Sentinel-1D",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-08-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000tkt2/m_78_66_km_nnw_of_ende_indonesia-A112/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_78_66_km_nnw_of_ende_indonesia_us6000tkt2/S1-COSEIS_SAR-A-R-112-tops-20260818_20260806-101629-00120E_00010S-PP-2580-v1_0_0/S1-COSEIS_SAR-A-R-112-tops-20260818_20260806-101629-00120E_00010S-PP-2580-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

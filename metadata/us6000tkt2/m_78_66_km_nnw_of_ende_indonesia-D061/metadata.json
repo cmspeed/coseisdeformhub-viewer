@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000tkt2",
+  "job_id": "m_78_66_km_nnw_of_ende_indonesia-D061",
+  "event_title": "M 7.8 - 66 km NNW of Ende, Indonesia",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_78_66_km_nnw_of_ende_indonesia_us6000tkt2/S1-COSEIS_SAR-D-R-061-tops-20260820_20260802-213559-00119E_00010S-PP-f0c8-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20260820_20260802-213559-00119E_00010S-PP-f0c8-v1_0_0.nc",
+  "stats": {
+    "min": -0.03768812119960785,
+    "max": 6.098500728607178,
+    "mean": 3.2982656256665397,
+    "std": 1.5725575151916173
+  },
+  "bounds": {
+    "lon_min": 118.795695081,
+    "lon_max": 121.81180860500001,
+    "lat_min": -10.065836274999999,
+    "lat_max": -6.4808334069999995
+  }
+}

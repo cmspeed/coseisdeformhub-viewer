@@ -23717,7 +23717,7 @@
         "lon": 142.4411
       },
       "bounds": {
-        "lon_min": 138.691250553,
+        "lon_min": 138.690417219,
         "lon_max": 142.634587041,
         "lat_min": 38.590513139,
         "lat_max": 42.052182575
@@ -23726,11 +23726,11 @@
         {
           "dataset_id": "m_60_54_km_ene_of_noda_japan-A141",
           "name": "Ascending Track 141",
-          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_54_km_ene_of_noda_japan_us6000t9ej/S1-COSEIS_SAR-A-R-141-tops-20260721_20260627-083427-00139E_00039N-PP-1106-v1_0_0/S1-COSEIS_SAR-A-R-141-tops-20260721_20260627-083427-00139E_00039N-PP-1106-v1_0_0.nc",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_54_km_ene_of_noda_japan_us6000t9ej/S1-COSEIS_SAR-A-R-141-tops-20260709_20260627-083426-00139E_00039N-PP-d0d3-v1_0_0/S1-COSEIS_SAR-A-R-141-tops-20260709_20260627-083426-00139E_00039N-PP-d0d3-v1_0_0.nc",
           "satellite": "Sentinel-1C_Sentinel-1C",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": "20260721 - 20260627",
+          "date_range": "20260709 - 20260627",
           "description": "Ascending Track 141"
         },
         {
@@ -23939,8 +23939,372 @@
         "pager_alert": "red"
       },
       "has_model": false
+    },
+    {
+      "event_id": "us6000ti6x",
+      "name": "2026 M 6.3 - 32 km SW of Sarangani, Philippines",
+      "magnitude": 6.3,
+      "date": "2026-08-05",
+      "location": "M 6.3 - 32 km SW of Sarangani, Philippines",
+      "epicenter": {
+        "lat": 5.1799,
+        "lon": 125.2798
+      },
+      "bounds": {
+        "lon_min": 123.449583693,
+        "lon_max": 128.059864359,
+        "lat_min": 4.043887635000001,
+        "lat_max": 7.912778019
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_63_32_km_sw_of_sarangani_philippines-A069",
+          "name": "Ascending Track 069",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_63_32_km_sw_of_sarangani_philippines_us6000ti6x/S1-COSEIS_SAR-A-R-069-tops-20260809_20260728-095536-00123E_00005N-PP-1a77-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20260809_20260728-095536-00123E_00005N-PP-1a77-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1C",
+          "track": "069",
+          "orbit_direction": "ascending",
+          "date_range": "20260809 - 20260728",
+          "description": "Ascending Track 069"
+        },
+        {
+          "dataset_id": "m_63_32_km_sw_of_sarangani_philippines-A171",
+          "name": "Ascending Track 171",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_63_32_km_sw_of_sarangani_philippines_us6000ti6x/S1-COSEIS_SAR-A-R-171-tops-20260816_20260804-094733-00125E_00006N-PP-2a0e-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20260816_20260804-094733-00125E_00006N-PP-2a0e-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1C",
+          "track": "171",
+          "orbit_direction": "ascending",
+          "date_range": "20260816 - 20260804",
+          "description": "Ascending Track 171"
+        },
+        {
+          "dataset_id": "m_63_32_km_sw_of_sarangani_philippines-D163",
+          "name": "Descending Track 163",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_63_32_km_sw_of_sarangani_philippines_us6000ti6x/S1-COSEIS_SAR-D-R-163-tops-20260809_20260728-212420-00124E_00004N-PP-7e08-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20260809_20260728-212420-00124E_00004N-PP-7e08-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "163",
+          "orbit_direction": "descending",
+          "date_range": "20260809 - 20260728",
+          "description": "Descending Track 163"
+        }
+      ],
+      "metadata": {
+        "depth_km": 10,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ti6x",
+        "pager_alert": "green"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "us6000tkt2",
+      "name": "2026 M 7.8 - 66 km NNW of Ende, Indonesia",
+      "magnitude": 7.8,
+      "date": "2026-08-14",
+      "location": "M 7.8 - 66 km NNW of Ende, Indonesia",
+      "epicenter": {
+        "lat": -8.3358,
+        "lon": 121.3446
+      },
+      "bounds": {
+        "lon_min": 118.334028845,
+        "lon_max": 123.66097515099999,
+        "lat_min": -10.065836274999999,
+        "lat_max": -6.4808334069999995
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_78_66_km_nnw_of_ende_indonesia-A010",
+          "name": "Ascending Track 010",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_78_66_km_nnw_of_ende_indonesia_us6000tkt2/S1-COSEIS_SAR-A-R-010-tops-20260823_20260617-102444-00118E_00009S-PP-4b25-v1_0_0/S1-COSEIS_SAR-A-R-010-tops-20260823_20260617-102444-00118E_00009S-PP-4b25-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1A",
+          "track": "010",
+          "orbit_direction": "ascending",
+          "date_range": "20260823 - 20260617",
+          "description": "Ascending Track 010",
+          "contains_events": [
+            "us6000tkt2"
+          ]
+        },
+        {
+          "dataset_id": "m_78_66_km_nnw_of_ende_indonesia-A112",
+          "name": "Ascending Track 112",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_78_66_km_nnw_of_ende_indonesia_us6000tkt2/S1-COSEIS_SAR-A-R-112-tops-20260818_20260806-101629-00120E_00010S-PP-2580-v1_0_0/S1-COSEIS_SAR-A-R-112-tops-20260818_20260806-101629-00120E_00010S-PP-2580-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "112",
+          "orbit_direction": "ascending",
+          "date_range": "20260818 - 20260806",
+          "description": "Ascending Track 112",
+          "contains_events": [
+            "us6000tkt2",
+            "us6000tkuc"
+          ]
+        },
+        {
+          "dataset_id": "m_78_66_km_nnw_of_ende_indonesia-D061",
+          "name": "Descending Track 061",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_78_66_km_nnw_of_ende_indonesia_us6000tkt2/S1-COSEIS_SAR-D-R-061-tops-20260820_20260802-213559-00119E_00010S-PP-f0c8-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20260820_20260802-213559-00119E_00010S-PP-f0c8-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1D",
+          "track": "061",
+          "orbit_direction": "descending",
+          "date_range": "20260820 - 20260802",
+          "description": "Descending Track 061",
+          "contains_events": [
+            "us6000tkt2",
+            "us6000tkuc"
+          ]
+        },
+        {
+          "dataset_id": "m_78_66_km_nnw_of_ende_indonesia-D163",
+          "name": "Descending Track 163",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_78_66_km_nnw_of_ende_indonesia_us6000tkt2/S1-COSEIS_SAR-D-R-163-tops-20260821_20260809-212806-00121E_00010S-PP-3007-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20260821_20260809-212806-00121E_00010S-PP-3007-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "163",
+          "orbit_direction": "descending",
+          "date_range": "20260821 - 20260809",
+          "description": "Descending Track 163",
+          "contains_events": [
+            "us6000tkt2",
+            "us6000tkuc"
+          ]
+        }
+      ],
+      "metadata": {
+        "depth_km": 10,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2",
+        "pager_alert": "orange"
+      },
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000tkuc",
+          "name": "M 6.1 - 62 km N of Ende, Indonesia",
+          "magnitude": 6.1,
+          "time": "2026-08-14 22:28:37 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 0.5,
+          "distance_km": 25,
+          "epicenter": {
+            "lat": -8.2904,
+            "lon": 121.5625
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkuc",
+          "has_own_entry": false
+        }
+      ]
+    },
+    {
+      "event_id": "us6000u18k",
+      "name": "2026 M 7.7 - 10 km WSW of Pitaloza Arriba, Panama",
+      "magnitude": 7.7,
+      "date": "2026-10-09",
+      "location": "M 7.7 - 10 km WSW of Pitaloza Arriba, Panama",
+      "epicenter": {
+        "lat": 7.6069,
+        "lon": -80.7566
+      },
+      "bounds": {
+        "lon_min": -83.283016093,
+        "lon_max": -77.87079194100001,
+        "lat_min": 6.481110206999999,
+        "lat_max": 9.743571217
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_77_10_km_wsw_of_pitaloza_arriba_panama-A121",
+          "name": "Ascending Track 121",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_77_10_km_wsw_of_pitaloza_arriba_panama_us6000u18k/S1-COSEIS_SAR-A-R-121-tops-20261017_20261005-233056-00081W_00007N-PP-b6e2-v1_0_0/S1-COSEIS_SAR-A-R-121-tops-20261017_20261005-233056-00081W_00007N-PP-b6e2-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "121",
+          "orbit_direction": "ascending",
+          "date_range": "20261017 - 20261005",
+          "description": "Ascending Track 121",
+          "contains_events": [
+            "us6000u18k",
+            "us6000u1cf"
+          ]
+        },
+        {
+          "dataset_id": "m_77_10_km_wsw_of_pitaloza_arriba_panama-D011",
+          "name": "Descending Track 011",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_77_10_km_wsw_of_pitaloza_arriba_panama_us6000u18k/S1-COSEIS_SAR-D-R-011-tops-20261016_20260904-111419-00083W_00007N-PP-2674-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20261016_20260904-111419-00083W_00007N-PP-2674-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1D",
+          "track": "011",
+          "orbit_direction": "descending",
+          "date_range": "20261016 - 20260904",
+          "description": "Descending Track 011",
+          "contains_events": [
+            "us6000u18k",
+            "us6000u19w",
+            "us6000u1cf",
+            "us6000u1wn"
+          ]
+        },
+        {
+          "dataset_id": "m_77_10_km_wsw_of_pitaloza_arriba_panama-D113",
+          "name": "Descending Track 113",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_77_10_km_wsw_of_pitaloza_arriba_panama_us6000u18k/S1-COSEIS_SAR-D-R-113-tops-20261017_20261005-110634-00081W_00006N-PP-0826-v1_0_0/S1-COSEIS_SAR-D-R-113-tops-20261017_20261005-110634-00081W_00006N-PP-0826-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "113",
+          "orbit_direction": "descending",
+          "date_range": "20261017 - 20261005",
+          "description": "Descending Track 113",
+          "contains_events": [
+            "us6000u18k",
+            "us6000u19w",
+            "us6000u1cf",
+            "us6000u1wn"
+          ]
+        }
+      ],
+      "metadata": {
+        "depth_km": 10,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+        "pager_alert": "orange"
+      },
+      "has_model": false,
+      "related_events": [
+        {
+          "event_id": "us6000u19w",
+          "name": "M 6.6 - 13 km WSW of R\u00edo Grande, Panama",
+          "magnitude": 6.6,
+          "time": "2026-10-09 20:25:38 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 2.5,
+          "distance_km": 77,
+          "epicenter": {
+            "lat": 7.676,
+            "lon": -81.4515
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000u1cf",
+          "name": "M 6.0 - 4 km NNE of La Tronosa, Panama",
+          "magnitude": 6,
+          "time": "2026-10-10 04:14:01 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 10.3,
+          "distance_km": 25,
+          "epicenter": {
+            "lat": 7.4777,
+            "lon": -80.5728
+          },
+          "depth_km": 10,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
+          "has_own_entry": false
+        },
+        {
+          "event_id": "us6000u1wn",
+          "name": "M 6.1 - 15 km W of R\u00edo Grande, Panama",
+          "magnitude": 6.1,
+          "time": "2026-10-12 23:20:36 UTC",
+          "relation": "aftershock",
+          "hours_from_mainshock": 77.4,
+          "distance_km": 80,
+          "epicenter": {
+            "lat": 7.7098,
+            "lon": -81.4715
+          },
+          "depth_km": 11,
+          "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wn",
+          "has_own_entry": false
+        }
+      ]
+    },
+    {
+      "event_id": "us6000u1kv",
+      "name": "2026 M 6.2 - 86 km SSE of Panguna, Papua New Guinea",
+      "magnitude": 6.2,
+      "date": "2026-10-11",
+      "location": "M 6.2 - 86 km SSE of Panguna, Papua New Guinea",
+      "epicenter": {
+        "lat": -7.0483,
+        "lon": 155.7498
+      },
+      "bounds": {
+        "lon_min": 152.823195103,
+        "lon_max": 158.035697673,
+        "lat_min": -9.422224649,
+        "lat_max": -5.066944187
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_62_86_km_sse_of_panguna_papua_new_guinea-A096",
+          "name": "Ascending Track 096",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_62_86_km_sse_of_panguna_papua_new_guinea_us6000u1kv/S1-COSEIS_SAR-A-R-096-tops-20261022_20261010-075639-00155E_00009S-PP-2fd0-v1_0_0/S1-COSEIS_SAR-A-R-096-tops-20261022_20261010-075639-00155E_00009S-PP-2fd0-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1C",
+          "track": "096",
+          "orbit_direction": "ascending",
+          "date_range": "20261022 - 20261010",
+          "description": "Ascending Track 096"
+        },
+        {
+          "dataset_id": "m_62_86_km_sse_of_panguna_papua_new_guinea-A169",
+          "name": "Ascending Track 169",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_62_86_km_sse_of_panguna_papua_new_guinea_us6000u1kv/S1-COSEIS_SAR-A-R-169-tops-20261021_20261009-080527-00153E_00007S-PP-57d1-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20261021_20261009-080527-00153E_00007S-PP-57d1-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "169",
+          "orbit_direction": "ascending",
+          "date_range": "20261021 - 20261009",
+          "description": "Ascending Track 169"
+        }
+      ],
+      "metadata": {
+        "depth_km": 31,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv",
+        "pager_alert": "green"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "us6000u24c",
+      "name": "2026 M 6.0 - 127 km S of Kokopo, Papua New Guinea",
+      "magnitude": 6,
+      "date": "2026-10-13",
+      "location": "M 6.0 - 127 km S of Kokopo, Papua New Guinea",
+      "epicenter": {
+        "lat": -5.4887,
+        "lon": 152.1707
+      },
+      "bounds": {
+        "lon_min": 150.228750983,
+        "lon_max": 153.292363745,
+        "lat_min": -7.526946955,
+        "lat_max": -3.947777425
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_60_127_km_s_of_kokopo_papua_new_guinea-A067",
+          "name": "Ascending Track 067",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_127_km_s_of_kokopo_papua_new_guinea_us6000u24c/S1-COSEIS_SAR-A-R-067-tops-20261014_20261002-081352-00151E_00007S-PP-7c50-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20261014_20261002-081352-00151E_00007S-PP-7c50-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "067",
+          "orbit_direction": "ascending",
+          "date_range": "20261014 - 20261002",
+          "description": "Ascending Track 067"
+        },
+        {
+          "dataset_id": "m_60_127_km_s_of_kokopo_papua_new_guinea-D016",
+          "name": "Descending Track 016",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_127_km_s_of_kokopo_papua_new_guinea_us6000u24c/S1-COSEIS_SAR-D-R-016-tops-20261022_20261010-193209-00150E_00008S-PP-df01-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20261022_20261010-193209-00150E_00008S-PP-df01-v1_0_0.nc",
+          "satellite": "Sentinel-1D_Sentinel-1D",
+          "track": "016",
+          "orbit_direction": "descending",
+          "date_range": "20261022 - 20261010",
+          "description": "Descending Track 016"
+        }
+      ],
+      "metadata": {
+        "depth_km": 20,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c",
+        "pager_alert": "green"
+      },
+      "has_model": false
     }
   ],
-  "total_events": 391,
-  "total_datasets": 1106
+  "total_events": 396,
+  "total_datasets": 1120
 }

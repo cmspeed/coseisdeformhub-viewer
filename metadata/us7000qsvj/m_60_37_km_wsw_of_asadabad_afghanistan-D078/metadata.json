@@ -6,10 +6,10 @@
   "track": "078",
   "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_35_km_wsw_of_asadabad_afghanistan_us7000qsvj/S1-COSEIS_SAR-D-R-078-tops-20250907_20250826-012337-00068E_00034N-PP-1969-v1_0_0/S1-COSEIS_SAR-D-R-078-tops-20250907_20250826-012337-00068E_00034N-PP-1969-v1_0_0.nc",
   "stats": {
-    "min": -0.14940060675144196,
-    "max": 0.1675281673669815,
-    "mean": -0.01404300883076187,
-    "std": 0.03620929592447958
+    "min": -0.150542750954628,
+    "max": 0.16639582812786102,
+    "mean": -0.014490784787606039,
+    "std": 0.036157225391561104
   },
   "bounds": {
     "lon_min": 67.97559522499999,
