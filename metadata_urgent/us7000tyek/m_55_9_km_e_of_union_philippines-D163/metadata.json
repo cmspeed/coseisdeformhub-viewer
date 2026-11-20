@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000tyek",
+  "job_id": "m_55_9_km_e_of_union_philippines-D163",
+  "event_title": "M 5.5 - 9 km E of Union, Philippines",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_55_9_km_e_of_union_philippines_us7000tyek/S1-COSEIS_SAR_UR-D-R-163-tops-20261119_20261113-212239-00125E_00009N-PP-5c75-v1_0_0/S1-COSEIS_SAR_UR-D-R-163-tops-20261119_20261113-212239-00125E_00009N-PP-5c75-v1_0_0.nc",
+  "stats": {
+    "min": -0.055404841899871826,
+    "max": 0.8586663007736206,
+    "mean": 0.3892511318628035,
+    "std": 0.13992973130598044
+  },
+  "bounds": {
+    "lon_min": 124.819583989,
+    "lon_max": 127.822364169,
+    "lat_min": 8.549124217,
+    "lat_max": 12.248571621
+  }
+}

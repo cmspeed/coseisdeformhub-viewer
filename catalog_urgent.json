@@ -1721,7 +1721,7 @@
           },
           "production": {
             "status": "pending",
-            "note": "Waiting for precise orbits (about 3 weeks after the post-event image)"
+            "note": "Made; not in the Production tab yet"
           },
           "contains_events": [
             "us6000u43g",
@@ -2141,7 +2141,7 @@
         "lon": -75.8807
       },
       "bounds": {
-        "lon_min": -77.67579498500001,
+        "lon_min": -77.867461805,
         "lon_max": -72.890235601,
         "lat_min": -16.333651867,
         "lat_max": -13.611428267
@@ -2203,6 +2203,25 @@
             "status": "not_planned",
             "note": "Not planned: below the archive's criteria (M 6.0 or larger)"
           }
+        },
+        {
+          "dataset_id": "m_58_79_km_wsw_of_changuillo_peru-D171",
+          "name": "Descending Track 171",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_58_79_km_wsw_of_changuillo_peru_us7000ty1a/S1-COSEIS_SAR_UR-D-R-171-tops-20261120_20261108-103929-00078W_00015S-PP-57d9-v1_0_0/S1-COSEIS_SAR_UR-D-R-171-tops-20261120_20261108-103929-00078W_00015S-PP-57d9-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1C",
+          "track": "171",
+          "orbit_direction": "descending",
+          "date_range": "20261120 - 20261108",
+          "description": "Descending Track 171",
+          "product": "S1-COSEIS_SAR_UR-D-R-171-tops-20261120_20261108-103929-00078W_00015S-PP-57d9-v1_0_0",
+          "orbits": {
+            "pre": "restituted",
+            "post": "restituted"
+          },
+          "production": {
+            "status": "not_planned",
+            "note": "Not planned: below the archive's criteria (M 6.0 or larger)"
+          }
         }
       ],
       "metadata": {
@@ -2216,13 +2235,81 @@
         "status": "not_planned",
         "note": "Not planned: below the archive's criteria (M 6.0 or larger)"
       }
+    },
+    {
+      "event_id": "us7000tyek",
+      "name": "2026 M 5.5 - 9 km E of Union, Philippines",
+      "magnitude": 5.5,
+      "date": "2026-11-15",
+      "location": "M 5.5 - 9 km E of Union, Philippines",
+      "epicenter": {
+        "lat": 9.7595,
+        "lon": 126.2
+      },
+      "bounds": {
+        "lon_min": 124.773750619,
+        "lon_max": 127.822364169,
+        "lat_min": 7.4741241569999985,
+        "lat_max": 12.248571621
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_55_9_km_e_of_union_philippines-A171",
+          "name": "Ascending Track 171",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_55_9_km_e_of_union_philippines_us7000tyek/S1-COSEIS_SAR_UR-A-R-171-tops-20261120_20261108-094812-00125E_00007N-PP-5a82-v1_0_0/S1-COSEIS_SAR_UR-A-R-171-tops-20261120_20261108-094812-00125E_00007N-PP-5a82-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1C",
+          "track": "171",
+          "orbit_direction": "ascending",
+          "date_range": "20261120 - 20261108",
+          "description": "Ascending Track 171",
+          "product": "S1-COSEIS_SAR_UR-A-R-171-tops-20261120_20261108-094812-00125E_00007N-PP-5a82-v1_0_0",
+          "orbits": {
+            "pre": "restituted",
+            "post": "restituted"
+          },
+          "production": {
+            "status": "not_planned",
+            "note": "Not planned: below the archive's criteria (M 6.0 or larger)"
+          }
+        },
+        {
+          "dataset_id": "m_55_9_km_e_of_union_philippines-D163",
+          "name": "Descending Track 163",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_55_9_km_e_of_union_philippines_us7000tyek/S1-COSEIS_SAR_UR-D-R-163-tops-20261119_20261113-212239-00125E_00009N-PP-5c75-v1_0_0/S1-COSEIS_SAR_UR-D-R-163-tops-20261119_20261113-212239-00125E_00009N-PP-5c75-v1_0_0.nc",
+          "satellite": "Sentinel-1C_Sentinel-1D",
+          "track": "163",
+          "orbit_direction": "descending",
+          "date_range": "20261119 - 20261113",
+          "description": "Descending Track 163",
+          "product": "S1-COSEIS_SAR_UR-D-R-163-tops-20261119_20261113-212239-00125E_00009N-PP-5c75-v1_0_0",
+          "orbits": {
+            "post": "restituted",
+            "pre": "restituted"
+          },
+          "production": {
+            "status": "not_planned",
+            "note": "Not planned: below the archive's criteria (M 6.0 or larger)"
+          }
+        }
+      ],
+      "metadata": {
+        "depth_km": 10,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyek",
+        "pager_alert": "green"
+      },
+      "has_model": false,
+      "folder": "URGENT_RESPONSE/2026/m_55_9_km_e_of_union_philippines_us7000tyek",
+      "production": {
+        "status": "not_planned",
+        "note": "Not planned: below the archive's criteria (M 6.0 or larger)"
+      }
     }
   ],
-  "total_events": 24,
-  "total_datasets": 54,
+  "total_events": 25,
+  "total_datasets": 57,
   "production_counts": {
     "pending": 5,
     "available": 13,
-    "not_planned": 36
+    "not_planned": 39
   }
 }

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000ty1a",
+  "job_id": "m_58_79_km_wsw_of_changuillo_peru-D171",
+  "event_title": "M 5.8 - 79 km WSW of Changuillo, Peru",
+  "orbit": "descending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_58_79_km_wsw_of_changuillo_peru_us7000ty1a/S1-COSEIS_SAR_UR-D-R-171-tops-20261120_20261108-103929-00078W_00015S-PP-57d9-v1_0_0/S1-COSEIS_SAR_UR-D-R-171-tops-20261120_20261108-103929-00078W_00015S-PP-57d9-v1_0_0.nc",
+  "stats": {
+    "min": -0.40294185280799866,
+    "max": 0.08866094052791595,
+    "mean": -0.10918636703603084,
+    "std": 0.10343181327396055
+  },
+  "bounds": {
+    "lon_min": -77.867461805,
+    "lon_max": -75.28412640500001,
+    "lat_min": -15.050873863000001,
+    "lat_max": -13.764761723000001
+  }
+}
