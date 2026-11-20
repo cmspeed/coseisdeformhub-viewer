@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000u18t",
+  "job_id": "m_55_3_km_sw_of_bajo_corral_panama-D011",
+  "event_title": "M 5.5 - 1 km E of La Miel, Panama",
+  "orbit": "descending",
+  "track": "011",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_55_3_km_sw_of_bajo_corral_panama_us6000u18t/S1-COSEIS_SAR_UR-D-R-011-tops-20261010_20260928-111422-00083W_00008N-PP-c973-v1_0_0/S1-COSEIS_SAR_UR-D-R-011-tops-20261010_20260928-111422-00083W_00008N-PP-c973-v1_0_0.nc",
+  "stats": {
+    "min": -0.3025287389755249,
+    "max": 0.09596247971057892,
+    "mean": -0.14699546877925282,
+    "std": 0.043857447809782804
+  },
+  "bounds": {
+    "lon_min": -83.082460377,
+    "lon_max": -80.39301378100001,
+    "lat_min": 8.042458745,
+    "lat_max": 10.077182595
+  }
+}

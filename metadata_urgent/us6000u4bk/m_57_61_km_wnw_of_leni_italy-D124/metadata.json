@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000u4bk",
+  "job_id": "m_57_61_km_wnw_of_leni_italy-D124",
+  "event_title": "M 5.7 - 62 km WNW of Leni, Italy",
+  "orbit": "descending",
+  "track": "124",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_57_61_km_wnw_of_leni_italy_us6000u4bk/S1-COSEIS_SAR_UR-D-R-124-tops-20261024_20261018-050401-00013E_00036N-PP-ad16-v1_0_0/S1-COSEIS_SAR_UR-D-R-124-tops-20261024_20261018-050401-00013E_00036N-PP-ad16-v1_0_0.nc",
+  "stats": {
+    "min": -2.597480535507202,
+    "max": 1.96176278591156,
+    "mean": 0.21880990822767285,
+    "std": 0.8758497111503141
+  },
+  "bounds": {
+    "lon_min": 12.946150757,
+    "lon_max": 16.638653711,
+    "lat_min": 36.493013061,
+    "lat_max": 39.965793617
+  }
+}

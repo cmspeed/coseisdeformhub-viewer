@@ -1,0 +1,20 @@
+{
+  "event_id": "aka2026ukynnb",
+  "job_id": "m_56_43_km_nnw_of_lake_minchumina_alaska-D131",
+  "event_title": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska",
+  "orbit": "descending",
+  "track": "131",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_56_43_km_nnw_of_lake_minchumina_alaska_aka2026ukynnb/S1-COSEIS_SAR_UR-D-R-131-tops-20261018_20261006-162830-00153W_00062N-PP-dba4-v1_0_0/S1-COSEIS_SAR_UR-D-R-131-tops-20261018_20261006-162830-00153W_00062N-PP-dba4-v1_0_0.nc",
+  "stats": {
+    "min": -0.23314078152179718,
+    "max": 0.10836607217788696,
+    "mean": -0.03668329170708636,
+    "std": 0.05567634169613301
+  },
+  "bounds": {
+    "lon_min": -153.616527471,
+    "lon_max": -147.70985607900002,
+    "lat_min": 61.972458689,
+    "lat_max": 64.131349305
+  }
+}

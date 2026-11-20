@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000u18k",
+  "job_id": "m_76_10_km_wsw_of_pitaloza_arriba_panama-D011",
+  "event_title": "M 7.7 - 10 km WSW of Pitaloza Arriba, Panama",
+  "orbit": "descending",
+  "track": "011",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_76_10_km_wsw_of_pitaloza_arriba_panama_us6000u18k/S1-COSEIS_SAR_UR-D-R-011-tops-20261010_20260904-111422-00083W_00008N-PP-3f06-v1_0_0/S1-COSEIS_SAR_UR-D-R-011-tops-20261010_20260904-111422-00083W_00008N-PP-3f06-v1_0_0.nc",
+  "stats": {
+    "min": -0.5995736718177795,
+    "max": 0.042485930025577545,
+    "mean": -0.35666068642464127,
+    "std": 0.10584113425691093
+  },
+  "bounds": {
+    "lon_min": -83.082460377,
+    "lon_max": -80.39301378100001,
+    "lat_min": 8.042458745,
+    "lat_max": 10.077182595
+  }
+}

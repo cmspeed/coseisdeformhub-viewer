@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000ttw5",
+  "job_id": "m_57_82_km_ne_of_kiunga_papua_new_guinea-D133",
+  "event_title": "M 5.7 - 82 km NE of Kiunga, Papua New Guinea",
+  "orbit": "descending",
+  "track": "133",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_57_82_km_ne_of_kiunga_papua_new_guinea_us7000ttw5/S1-COSEIS_SAR_UR-D-R-133-tops-20261030_20261018-200513-00142E_00008S-PP-d6cb-v1_0_0/S1-COSEIS_SAR_UR-D-R-133-tops-20261030_20261018-200513-00142E_00008S-PP-d6cb-v1_0_0.nc",
+  "stats": {
+    "min": -0.16489197313785553,
+    "max": 0.5508860945701599,
+    "mean": 0.17696395124507436,
+    "std": 0.13780044208421818
+  },
+  "bounds": {
+    "lon_min": 141.848750679,
+    "lon_max": 144.837086403,
+    "lat_min": -8.100279946999999,
+    "lat_max": -4.514165966999999
+  }
+}

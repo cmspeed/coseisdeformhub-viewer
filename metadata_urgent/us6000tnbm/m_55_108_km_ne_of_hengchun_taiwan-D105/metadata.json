@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000tnbm",
+  "job_id": "m_55_108_km_ne_of_hengchun_taiwan-D105",
+  "event_title": "M 5.5 - 114 km NE of Hengchun, Taiwan",
+  "orbit": "descending",
+  "track": "105",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_55_108_km_ne_of_hengchun_taiwan_us6000tnbm/S1-COSEIS_SAR_UR-D-R-105-tops-20260904_20260823-215212-00119E_00021N-PP-2487-v1_0_0/S1-COSEIS_SAR_UR-D-R-105-tops-20260904_20260823-215212-00119E_00021N-PP-2487-v1_0_0.nc",
+  "stats": {
+    "min": -0.06119006872177124,
+    "max": 0.297107070684433,
+    "mean": 0.10613876768082382,
+    "std": 0.04372423331869216
+  },
+  "bounds": {
+    "lon_min": 119.0620829085,
+    "lon_max": 122.02541505650001,
+    "lat_min": 21.420518098499997,
+    "lat_max": 24.088017031499998
+  }
+}

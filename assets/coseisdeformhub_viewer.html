@@ -525,6 +525,97 @@
             margin-top: 1px;
         }
 
+        /* Product sets: Production (precise orbits) | Urgent response (restituted orbits) */
+        .set-tabs {
+            display: flex;
+            gap: 4px;
+            margin-top: 10px;
+        }
+
+        .set-tab {
+            flex: 1 1 0;
+            min-height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 3px solid transparent;
+            color: #495057;
+            font-size: 12.5px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background var(--transition);
+        }
+
+        .set-tab:hover { background: var(--panel2); color: var(--text); }
+        .set-tab[aria-selected="true"] { font-weight: 700; color: #0b4f8a; border-bottom-color: var(--accent-dark); }
+        .set-tab.urgent[aria-selected="true"] { color: #8a3a06; border-bottom-color: #e8590c; }
+
+        .urgent-note {
+            margin: 12px 14px 0;
+            padding: 8px 10px;
+            font-size: 11.5px;
+            line-height: 1.4;
+            color: #5c2a07;
+            background: #fff4e6;
+            border: 1px solid #ffc078;
+            border-radius: var(--radius);
+        }
+
+        .prod-chip {
+            display: inline-block;
+            padding: 1px 8px;
+            font-size: 11px;
+            font-weight: 600;
+            white-space: nowrap;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+
+        .prod-chip.pending { color: #8a3a06; background: #fff4e6; border-color: #ffc078; }
+        .prod-chip.available { color: #0b4f8a; background: #e7f5ff; border-color: #a5d8ff; }
+        .prod-chip.not_planned { color: #495057; background: #f1f3f5; border-color: #ced4da; }
+
+        .cross-link {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            margin-top: 6px;
+            padding: 8px;
+            font-size: 11.5px;
+            line-height: 1.4;
+            background: var(--panel2);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+
+        .cross-link .info-label { font-size: 11px; }
+
+        .map-set-badge {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #8a3a06;
+            background: #fff4e6;
+            border: 1px solid #ffc078;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow);
+            white-space: nowrap;
+        }
+
+        .map-set-badge[hidden] { display: none; }
+
+        @media (max-width: 1100px) {
+            .map-set-badge { top: auto; bottom: 50px; left: auto; right: 10px; transform: none; }
+        }
+
         /* Main content */
         .main-content {
             flex: 1;
@@ -1009,9 +1100,18 @@
                     <h1>Coseismic Deformation Hub</h1>
                 </div>
                 <p>One Stop Shop of Coseismic Displacement Products</p>
+                <div class="set-tabs" role="tablist" aria-label="Product set">
+                    <a class="set-tab" id="tab-production" role="tab" aria-selected="true">Production</a>
+                    <a class="set-tab urgent" id="tab-urgent" role="tab" aria-selected="false">Urgent response</a>
+                </div>
             </div>
 
             <div id="sidebar-scroll">
+                <div class="urgent-note" id="urgent-note" hidden>
+                    Urgent-response products are made within hours of the first post-event images, with
+                    restituted orbits. They are preliminary: where a production product (precise orbits)
+                    exists, use the Production tab.
+                </div>
                 <!-- Event Selection -->
                 <div class="section">
                     <div class="section-head" onclick="toggleSection(this)">
@@ -1213,6 +1313,10 @@
             <!-- Map -->
             <div class="map-wrapper">
                 <div id="map"></div>
+                <div class="map-set-badge" id="map-set-badge" hidden>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#b54708" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v6"/><path d="M12 16.5v.5"/></svg>
+                    Urgent response · restituted orbits
+                </div>
                 <div class="map-stats-box" id="map-stats-box">
                     <div class="map-stats-title" onclick="this.closest('.map-stats-box').classList.toggle('collapsed')">
                         <span>Catalog Summary</span>
@@ -1223,15 +1327,15 @@
                     <div class="map-stats-row">
                         <div class="map-stat-card">
                             <div class="map-stat-value" id="stat-event-count">&ndash;</div>
-                            <div class="map-stat-label">Earthquakes (2014-now)</div>
+                            <div class="map-stat-label" id="stat-event-label">Earthquakes (2014-now)</div>
                         </div>
                         <div class="map-stat-card">
                             <div class="map-stat-value" id="stat-dataset-count">&ndash;</div>
-                            <div class="map-stat-label">COSEIS Datasets</div>
+                            <div class="map-stat-label" id="stat-dataset-label">COSEIS Datasets</div>
                         </div>
                         <div class="map-stat-card">
                             <div class="map-stat-value" id="stat-pager-count">&ndash;</div>
-                            <div class="map-stat-label">USGS PAGER Alerts (<span style="color: #ff5c5c;">Red</span>/<span style="color: #ff9f43;">Orange</span>/<span style="color: #ffd43b;">Yellow</span>/<span style="color: #51cf66;">Green</span>)</div>
+                            <div class="map-stat-label" id="stat-pager-label">USGS PAGER Alerts (<span style="color: #ff5c5c;">Red</span>/<span style="color: #ff9f43;">Orange</span>/<span style="color: #ffd43b;">Yellow</span>/<span style="color: #51cf66;">Green</span>)</div>
                         </div>
                     </div>
                 </div>
@@ -1355,23 +1459,68 @@
         // catalog.json and the pngs/ directory (as produced by
         // scripts/build_static_catalog.py + scripts/generate_pngs_from_catalog.py)
         // are actually hosted -- e.g. an S3 bucket or CloudFront distribution.
-        const DEFORMHUB_CONFIG = {
-            // catalog.json and per-dataset metadata.json are loaded via fetch(),
-            // which requires CORS -- hosted here on GitHub Pages since it sends
-            // permissive CORS headers by default.
-            catalogUrl: 'https://gracebato.github.io/coseisdeformhub-viewer/catalog.json',
-            metadataBaseUrl: 'https://gracebato.github.io/coseisdeformhub-viewer/metadata',
-            // PNGs are loaded via plain <img> tags, which don't need CORS, so
-            // these can stay on the production data host.
-            imageBaseUrl: 'https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/deformhub-viewer/pngs',
+        //
+        // Two product sets, one tab each (?set=urgent selects the second):
+        //   production: precise orbits, historic-mode pair selection (catalog.json, metadata/)
+        //   urgent:     urgent-response products, made with restituted orbits soon after the first
+        //               post-event images (catalog_urgent.json, metadata_urgent/); each dataset says
+        //               whether a production version exists, is pending or is not planned.
+        const DEFORMHUB_SETS = {
+            production: {
+                // catalog.json and per-dataset metadata.json are loaded via fetch(),
+                // which requires CORS -- hosted here on GitHub Pages since it sends
+                // permissive CORS headers by default.
+                catalogUrl: 'https://gracebato.github.io/coseisdeformhub-viewer/catalog.json',
+                metadataBaseUrl: 'https://gracebato.github.io/coseisdeformhub-viewer/metadata',
+                // PNGs are loaded via plain <img> tags, which don't need CORS, so
+                // these can stay on the production data host.
+                imageBaseUrl: 'https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/deformhub-viewer/pngs',
+            },
+            urgent: {
+                catalogUrl: 'https://gracebato.github.io/coseisdeformhub-viewer/catalog_urgent.json',
+                metadataBaseUrl: 'https://gracebato.github.io/coseisdeformhub-viewer/metadata_urgent',
+                imageBaseUrl: 'https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/deformhub-viewer/pngs_urgent',
+            },
         };
-        // Served from a local checkout (python3 -m http.server): read catalog.json and metadata/ from
+        // Served from a local checkout (python3 -m http.server): read the catalogs and metadata from
         // the checkout, so changes can be tried before they are deployed.
         if (['localhost', '127.0.0.1'].includes(window.location.hostname)) {
-            DEFORMHUB_CONFIG.catalogUrl = new URL('../catalog.json', window.location.href).href;
-            DEFORMHUB_CONFIG.metadataBaseUrl = new URL('../metadata', window.location.href).href;
+            for (const [set, files] of [['production', ['catalog.json', 'metadata']], ['urgent', ['catalog_urgent.json', 'metadata_urgent']]]) {
+                DEFORMHUB_SETS[set].catalogUrl = new URL(`../${files[0]}`, window.location.href).href;
+                DEFORMHUB_SETS[set].metadataBaseUrl = new URL(`../${files[1]}`, window.location.href).href;
+            }
         }
+        const PAGE_PARAMS = new URLSearchParams(window.location.search);
+        const URGENT = PAGE_PARAMS.get('set') === 'urgent';
+        const DEFORMHUB_CONFIG = DEFORMHUB_SETS[URGENT ? 'urgent' : 'production'];
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
+        let otherCatalog = null;  // the other tab's catalog, for links between the two versions of a product
+        let pendingDatasetId = PAGE_PARAMS.get('dataset');  // from a link: the dataset to open first
+
+        // Production status of an urgent-response event or dataset
+        const PRODUCTION_STATUS = {
+            pending: { label: 'Production pending', short: 'pending', color: '#ff922b' },
+            available: { label: 'Production available', short: 'available', color: '#4dabf7' },
+            not_planned: { label: 'No production planned', short: 'not planned', color: '#adb5bd' },
+        };
+
+        // Link to an event (and dataset) in either tab
+        function setLink(urgent, eventId, datasetId) {
+            const p = new URLSearchParams();
+            if (urgent) p.set('set', 'urgent');
+            if (eventId) p.set('event', eventId);
+            if (datasetId) p.set('dataset', datasetId);
+            const q = p.toString();
+            return window.location.pathname + (q ? `?${q}` : '');
+        }
+
+        document.getElementById('tab-production').href = setLink(false);
+        document.getElementById('tab-urgent').href = setLink(true);
+        document.getElementById('tab-production').setAttribute('aria-selected', String(!URGENT));
+        document.getElementById('tab-urgent').setAttribute('aria-selected', String(URGENT));
+        document.getElementById('urgent-note').hidden = !URGENT;
+        document.getElementById('map-set-badge').hidden = !URGENT;
+        if (URGENT) document.title = 'Urgent response · Coseismic Deformation Hub';
 
         // CARTO retired free/keyless raster basemap tiles, so this needs a key
         // (5M requests/month free, https://carto.com/basemaps/apikey). The real
@@ -1670,19 +1819,42 @@
                     fullCatalog = await response.json();
                 }
 
+                loadOtherCatalog();  // not awaited: only the links between the tabs need it
+
                 document.getElementById('stat-event-count').textContent = fullCatalog.total_events;
                 document.getElementById('stat-dataset-count').textContent = fullCatalog.total_datasets;
-                const pagerCounts = { red: 0, orange: 0, yellow: 0, green: 0 };
-                fullCatalog.events.forEach(e => {
-                    const level = e.metadata && e.metadata.pager_alert;
-                    if (level in pagerCounts) pagerCounts[level]++;
-                });
                 const pagerSlash = '<span style="color: #9aa4b2;">/</span>';
-                document.getElementById('stat-pager-count').innerHTML =
-                    `<span style="color: #ff5c5c;">${pagerCounts.red}</span>` + pagerSlash +
-                    `<span style="color: #ff9f43;">${pagerCounts.orange}</span>` + pagerSlash +
-                    `<span style="color: #ffd43b;">${pagerCounts.yellow}</span>` + pagerSlash +
-                    `<span style="color: #51cf66;">${pagerCounts.green}</span>`;
+                if (URGENT) {
+                    // Third card: how many urgent-response events have a production version
+                    const n = { pending: 0, available: 0, not_planned: 0 };
+                    fullCatalog.events.forEach(e => { if (e.production && e.production.status in n) n[e.production.status]++; });
+                    const keys = Object.keys(n);
+                    document.getElementById('stat-event-label').textContent = 'Earthquakes (urgent response)';
+                    document.getElementById('stat-dataset-label').textContent = 'Urgent-response datasets';
+                    document.getElementById('stat-pager-count').innerHTML = keys
+                        .map(k => `<span style="color: ${PRODUCTION_STATUS[k].color};">${n[k]}</span>`).join(pagerSlash);
+                    document.getElementById('stat-pager-label').innerHTML = 'Production (' + keys
+                        .map(k => `<span style="color: ${PRODUCTION_STATUS[k].color};">${PRODUCTION_STATUS[k].short}</span>`)
+                        .join('/') + ')';
+                    drawUrgentEvents();
+                } else {
+                    const pagerCounts = { red: 0, orange: 0, yellow: 0, green: 0 };
+                    fullCatalog.events.forEach(e => {
+                        const level = e.metadata && e.metadata.pager_alert;
+                        if (level in pagerCounts) pagerCounts[level]++;
+                    });
+                    document.getElementById('stat-pager-count').innerHTML =
+                        `<span style="color: #ff5c5c;">${pagerCounts.red}</span>` + pagerSlash +
+                        `<span style="color: #ff9f43;">${pagerCounts.orange}</span>` + pagerSlash +
+                        `<span style="color: #ffd43b;">${pagerCounts.yellow}</span>` + pagerSlash +
+                        `<span style="color: #51cf66;">${pagerCounts.green}</span>`;
+                }
+
+                // A link into an event (?event=<id>&dataset=<id>), e.g. from the other tab
+                const linked = PAGE_PARAMS.get('event');
+                if (linked && !currentEventId && fullCatalog.events.some(e => e.event_id === linked)) {
+                    currentEventId = linked;
+                }
 
                 relatedIndex = new Map();
                 fullCatalog.events.forEach(ev => (ev.related_events || []).forEach(rel => {
@@ -1694,7 +1866,9 @@
                     .map(e => ({
                         event_id: e.event_id, name: e.name, date: e.date,
                         depth_km: e.metadata ? e.metadata.depth_km : null,
-                        summary: sequenceSummary(e), related: e.related_events || []
+                        summary: [sequenceSummary(e), e.production ? `production ${PRODUCTION_STATUS[e.production.status].short}` : '']
+                            .filter(Boolean).join(' · '),
+                        related: e.related_events || []
                     }))
                     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
@@ -1704,7 +1878,7 @@
                 // Add "Significant Earthquakes (2014-now)" as default option
                 const allOption = document.createElement('option');
                 allOption.value = '';
-                allOption.textContent = 'Significant Earthquakes (2014-now)';
+                allOption.textContent = URGENT ? 'Urgent-response earthquakes' : 'Significant Earthquakes (2014-now)';
                 allOption.selected = !currentEventId;
                 select.appendChild(allOption);
 
@@ -1774,17 +1948,19 @@
 
         // Show state when "All Earthquake Events" is selected
         function showAllEventsState() {
-            setUSGSVisible(true);
+            // The urgent tab maps its own events (by production status) instead of the USGS layer
+            setUSGSVisible(!URGENT);
+            setUrgentEventsVisible(true);
 
             // Clear event info
             document.getElementById('event-info').innerHTML = `
                 <div class="info-row">
                     <span class="info-label">View</span>
-                    <span class="info-value">Global Earthquake Map</span>
+                    <span class="info-value">${URGENT ? 'Urgent-response earthquakes' : 'Global Earthquake Map'}</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label">Source</span>
-                    <span class="info-value">USGS Earthquake Catalog</span>
+                    <span class="info-value">${URGENT ? 'COSEIS forward processing' : 'USGS Earthquake Catalog'}</span>
                 </div>
                 <div class="info-row">
                     <span class="info-label">Tip</span>
@@ -1867,11 +2043,12 @@
             // If "Significant Earthquakes (2014-now)" is selected,
             // reload to revert everything (including USGS filters) to default.
             if (!currentEventId) {
-                location.reload();
+                window.location.href = setLink(URGENT);  // a reload, without ?event= of a link
                 return;
             }
 
             setUSGSVisible(false);
+            setUrgentEventsVisible(false);
 
             try {
                 currentEvent = fullCatalog.events.find(e => e.event_id === currentEventId);
@@ -1884,7 +2061,11 @@
                 datasetSelect.innerHTML = '';
 
                 // With a related earthquake chosen, start on the first track that contains it.
-                const first = datasetsData.datasets.find(ds => datasetContains(ds, highlightedRelatedId || currentEventId))
+                // A link may name the dataset to open.
+                const linkedDataset = pendingDatasetId && datasetsData.datasets.find(ds => ds.dataset_id === pendingDatasetId);
+                pendingDatasetId = null;
+                const first = linkedDataset
+                    || datasetsData.datasets.find(ds => datasetContains(ds, highlightedRelatedId || currentEventId))
                     || datasetsData.datasets[0];
                 datasetsData.datasets.forEach((ds, index) => {
                     const option = document.createElement('option');
@@ -1984,6 +2165,13 @@
                     <span class="info-label">USGS Details</span>
                     <span class="info-value"><a href="${currentEvent.metadata.usgs_event_url}" target="_blank" rel="noopener">link</a></span>
                 </div>
+                ` : ''}
+                ${currentEvent.production ? `
+                <div class="info-row">
+                    <span class="info-label">Production</span>
+                    <span class="info-value"><span class="prod-chip ${currentEvent.production.status}">${PRODUCTION_STATUS[currentEvent.production.status].label}</span></span>
+                </div>
+                <div style="font-size: 11px; color: var(--text-muted); text-align: right;">${escapeHtml(currentEvent.production.note)}</div>
                 ` : ''}
                 ${sequenceHTML()}
             `;
@@ -2144,8 +2332,138 @@
                 </div>
                 ` : ''}
                 ${dateHTML}
+                ${orbitsHTML()}
                 ${containsHTML()}
+                ${otherVersionHTML()}
             `;
+        }
+
+        // Orbits of an urgent-response dataset: restituted, or precise for a date whose precise orbit
+        // already existed when it was processed
+        function orbitsHTML() {
+            const o = currentDataset && currentDataset.orbits;
+            if (!o) return '';
+            const kinds = [o.post, o.pre].filter(Boolean);
+            const text = kinds.length === 2 && o.post === o.pre
+                ? (o.post === 'precise' ? 'Precise' : 'Restituted')
+                : `Reference ${o.post || '?'} · secondary ${o.pre || '?'}`;
+            return `
+                <div class="info-row">
+                    <span class="info-label">Orbits</span>
+                    <span class="info-value" style="${o.post === 'restituted' || o.pre === 'restituted' ? 'color: #b54708; font-weight: 600;' : ''}">${text}</span>
+                </div>`;
+        }
+
+        // The same track's version in the other tab: the production product of an urgent-response
+        // dataset, or the urgent-response product(s) of a production dataset
+        function otherVersionHTML() {
+            if (!currentDataset) return '';
+            if (URGENT) {
+                const p = currentDataset.production;
+                if (!p) return '';
+                const link = p.status === 'available'
+                    ? `<a href="${setLink(false, p.event_id, p.dataset_id)}">Open in the Production tab</a>` : '';
+                return `
+                    <div class="cross-link">
+                        <span class="info-label">Production version <span class="prod-chip ${p.status}" style="margin-left: 4px;">${PRODUCTION_STATUS[p.status].short}</span></span>
+                        <span>${escapeHtml(p.note)}</span>
+                        ${link}
+                    </div>`;
+            }
+            const urgent = urgentVersions(currentEventId, currentDatasetId);
+            if (!urgent.length) return '';
+            return `
+                <div class="cross-link">
+                    <span class="info-label">Urgent-response version${urgent.length > 1 ? 's' : ''} (restituted orbits)</span>
+                    ${urgent.map(u => `<span>${u.same ? 'Same images' : `Other pair, ${u.dates}`} ·
+                        <a href="${setLink(true, u.event_id, u.dataset_id)}">open in the Urgent response tab</a></span>`).join('')}
+                </div>`;
+        }
+
+        // Urgent-response datasets whose production version is the given production dataset
+        function urgentVersions(eventId, datasetId) {
+            if (URGENT || !otherCatalog) return [];
+            const out = [];
+            otherCatalog.events.forEach(ev => ev.datasets.forEach(d => {
+                const p = d.production;
+                if (p && p.status === 'available' && p.event_id === eventId && p.dataset_id === datasetId) {
+                    out.push({ event_id: ev.event_id, dataset_id: d.dataset_id, same: p.same_pair,
+                               dates: d.date_range.replace(' - ', ' / ') });
+                }
+            }));
+            return out;
+        }
+
+        // The other tab's catalog (for the links between the two versions); optional
+        async function loadOtherCatalog() {
+            if (URGENT) return;  // urgent datasets carry their production link themselves
+            try {
+                const response = await fetch(DEFORMHUB_SETS.urgent.catalogUrl);
+                if (!response.ok) return;
+                otherCatalog = await response.json();
+                if (currentDataset) updateDatasetInfo();
+            } catch (error) {
+                console.warn('Urgent-response catalog not loaded:', error);
+            }
+        }
+
+        // Urgent tab, no event selected: its events on the map, coloured by production status
+        let urgentEventsInitialized = false;
+        function drawUrgentEvents() {
+            if (!map || !fullCatalog) return;
+            const data = {
+                type: 'FeatureCollection',
+                features: fullCatalog.events.map(e => ({
+                    type: 'Feature',
+                    geometry: { type: 'Point', coordinates: [e.epicenter.lon, e.epicenter.lat] },
+                    properties: { id: e.event_id, name: e.location, mag: e.magnitude, date: e.date,
+                                  status: e.production ? e.production.status : 'not_planned', datasets: e.datasets.length },
+                })),
+            };
+            if (map.getSource('urgent-events')) {
+                map.getSource('urgent-events').setData(data);
+                return;
+            }
+            map.addSource('urgent-events', { type: 'geojson', data });
+            map.addLayer({
+                id: 'urgent-events-circles',
+                type: 'circle',
+                source: 'urgent-events',
+                paint: {
+                    'circle-radius': ['interpolate', ['linear'], ['get', 'mag'], 5.5, 6, 6.0, 7, 7.0, 10, 8.0, 14],
+                    'circle-color': ['match', ['get', 'status'],
+                        'pending', PRODUCTION_STATUS.pending.color,
+                        'available', PRODUCTION_STATUS.available.color,
+                        PRODUCTION_STATUS.not_planned.color],
+                    'circle-stroke-color': '#ffffff',
+                    'circle-stroke-width': 1.5,
+                    'circle-opacity': 0.9,
+                },
+            });
+            if (urgentEventsInitialized) return;
+            urgentEventsInitialized = true;
+            let hover = null;
+            map.on('click', 'urgent-events-circles', (e) => goToCOSEISEvent(e.features[0].properties.id));
+            map.on('mousemove', 'urgent-events-circles', (e) => {
+                map.getCanvas().style.cursor = 'pointer';
+                const p = e.features[0].properties;
+                if (hover) hover.remove();
+                hover = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: [0, -10], className: 'usgs-hover-popup' })
+                    .setLngLat(e.features[0].geometry.coordinates)
+                    .setHTML(`<strong>M${fmtMag(p.mag)}</strong> ${escapeHtml(p.name.replace(/^M \d+(\.\d+)? - /, ''))}<br>`
+                        + `${p.date} · ${p.datasets} dataset${p.datasets === 1 ? '' : 's'} · ${PRODUCTION_STATUS[p.status].label}`)
+                    .addTo(map);
+            });
+            map.on('mouseleave', 'urgent-events-circles', () => {
+                map.getCanvas().style.cursor = '';
+                if (hover) { hover.remove(); hover = null; }
+            });
+        }
+
+        function setUrgentEventsVisible(visible) {
+            if (map && map.getLayer('urgent-events-circles')) {
+                map.setLayoutProperty('urgent-events-circles', 'visibility', visible ? 'visible' : 'none');
+            }
         }
 
         // Which earthquakes of the sequence this track's interferogram contains
@@ -2242,7 +2560,7 @@
                 type: 'fill',
                 source: coverageBoxId,
                 paint: {
-                    'fill-color': '#4dabf7',
+                    'fill-color': URGENT ? '#ff922b' : '#4dabf7',
                     'fill-opacity': 0.08
                 }
             });
@@ -2252,8 +2570,9 @@
                 type: 'line',
                 source: coverageBoxId,
                 paint: {
-                    'line-color': '#4dabf7',
-                    'line-width': 2
+                    'line-color': URGENT ? '#e8590c' : '#4dabf7',
+                    'line-width': 2,
+                    ...(URGENT ? { 'line-dasharray': [3, 2] } : {})
                 }
             });
 

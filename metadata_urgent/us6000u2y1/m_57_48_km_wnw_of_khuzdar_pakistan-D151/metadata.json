@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000u2y1",
+  "job_id": "m_57_48_km_wnw_of_khuzdar_pakistan-D151",
+  "event_title": "M 5.7 - 47 km WNW of Khuzdar, Pakistan",
+  "orbit": "descending",
+  "track": "151",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_57_48_km_wnw_of_khuzdar_pakistan_us6000u2y1/S1-COSEIS_SAR_UR-D-R-151-tops-20261020_20261008-013305-00065E_00026N-PP-28c6-v1_0_0/S1-COSEIS_SAR_UR-D-R-151-tops-20261020_20261008-013305-00065E_00026N-PP-28c6-v1_0_0.nc",
+  "stats": {
+    "min": -0.18186438083648682,
+    "max": 0.050919026136398315,
+    "mean": -0.04908968524139646,
+    "std": 0.02465342239519349
+  },
+  "bounds": {
+    "lon_min": 64.479483717,
+    "lon_max": 67.77837524499999,
+    "lat_min": 26.530235313000002,
+    "lat_max": 29.853293527
+  }
+}

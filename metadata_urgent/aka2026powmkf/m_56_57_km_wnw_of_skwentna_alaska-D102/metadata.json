@@ -1,0 +1,20 @@
+{
+  "event_id": "aka2026powmkf",
+  "job_id": "m_56_57_km_wnw_of_skwentna_alaska-D102",
+  "event_title": "M 5.6 - 57 km WNW of Skwentna, Alaska",
+  "orbit": "descending",
+  "track": "102",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_56_57_km_wnw_of_skwentna_alaska_aka2026powmkf/S1-COSEIS_SAR_UR-D-R-102-tops-20260817_20260805-164527-00158W_00060N-PP-76af-v1_0_0/S1-COSEIS_SAR_UR-D-R-102-tops-20260817_20260805-164527-00158W_00060N-PP-76af-v1_0_0.nc",
+  "stats": {
+    "min": -0.11664225906133652,
+    "max": 0.036542534828186035,
+    "mean": -0.03383011365408661,
+    "std": 0.02381057753354137
+  },
+  "bounds": {
+    "lon_min": -158.3045836115,
+    "lon_max": -152.7529191655,
+    "lat_min": 60.1896844575,
+    "lat_max": 62.3396835975
+  }
+}

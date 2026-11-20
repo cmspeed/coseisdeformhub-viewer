@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000tdmp",
+  "job_id": "m_56_71_km_wsw_of_puerto_madero_mexico-A034",
+  "event_title": "M 5.6 - 104 km WSW of Puerto Madero, Mexico",
+  "orbit": "ascending",
+  "track": "034",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_56_71_km_wsw_of_puerto_madero_mexico_us7000tdmp/S1-COSEIS_SAR_UR-A-R-034-tops-20260906_20260831-002203-00094W_00014N-PP-1711-v1_0_0/S1-COSEIS_SAR_UR-A-R-034-tops-20260906_20260831-002203-00094W_00014N-PP-1711-v1_0_0.nc",
+  "stats": {
+    "min": -0.48207154870033264,
+    "max": 0.2843291759490967,
+    "mean": -0.1147846312210316,
+    "std": 0.14775966027174955
+  },
+  "bounds": {
+    "lon_min": -94.280238313,
+    "lon_max": -91.528569445,
+    "lat_min": 13.499124977,
+    "lat_max": 15.756904560999999
+  }
+}

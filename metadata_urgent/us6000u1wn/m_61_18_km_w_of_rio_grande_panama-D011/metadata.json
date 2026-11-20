@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000u1wn",
+  "job_id": "m_61_18_km_w_of_rio_grande_panama-D011",
+  "event_title": "M 6.1 - 15 km W of R\u00edo Grande, Panama",
+  "orbit": "descending",
+  "track": "011",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_61_18_km_w_of_rio_grande_panama_us6000u1wn/S1-COSEIS_SAR_UR-D-R-011-tops-20261016_20260904-111419-00083W_00007N-PP-2674-v1_0_0/S1-COSEIS_SAR_UR-D-R-011-tops-20261016_20260904-111419-00083W_00007N-PP-2674-v1_0_0.nc",
+  "stats": {
+    "min": -0.20907029509544373,
+    "max": 0.42410650849342346,
+    "mean": 0.13158916276043997,
+    "std": 0.09090035150363596
+  },
+  "bounds": {
+    "lon_min": -83.283016093,
+    "lon_max": -80.461902725,
+    "lat_min": 7.0410690549999995,
+    "lat_max": 9.743571217
+  }
+}

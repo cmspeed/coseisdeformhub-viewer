@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000u4ty",
+  "job_id": "m_58_209_km_ene_of_nagqu_china-D004",
+  "event_title": "M 5.9 - 214 km ENE of Nagqu, China",
+  "orbit": "descending",
+  "track": "004",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_58_209_km_ene_of_nagqu_china_us6000u4ty/S1-COSEIS_SAR_UR-D-R-004-tops-20261102_20260927-233630-00094E_00032N-PP-3081-v1_0_0/S1-COSEIS_SAR_UR-D-R-004-tops-20261102_20260927-233630-00094E_00032N-PP-3081-v1_0_0.nc",
+  "stats": {
+    "min": -0.1304062008857727,
+    "max": 0.07332643121480942,
+    "mean": -0.015576949577722524,
+    "std": 0.016157834579621142
+  },
+  "bounds": {
+    "lon_min": 94.411150329,
+    "lon_max": 97.512819477,
+    "lat_min": 32.117736583,
+    "lat_max": 34.100515947000005
+  }
+}

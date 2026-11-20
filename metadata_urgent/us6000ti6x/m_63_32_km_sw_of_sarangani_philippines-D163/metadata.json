@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000ti6x",
+  "job_id": "m_63_32_km_sw_of_sarangani_philippines-D163",
+  "event_title": "M 6.3 - 32 km SW of Sarangani, Philippines",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_63_32_km_sw_of_sarangani_philippines_us6000ti6x/S1-COSEIS_SAR_UR-D-R-163-tops-20260809_20260728-212420-00124E_00004N-PP-7e08-v1_0_0/S1-COSEIS_SAR_UR-D-R-163-tops-20260809_20260728-212420-00124E_00004N-PP-7e08-v1_0_0.nc",
+  "stats": {
+    "min": -0.21461939811706543,
+    "max": 0.11891213804483414,
+    "mean": -0.03134603363347795,
+    "std": 0.03799572907873704
+  },
+  "bounds": {
+    "lon_min": 123.8937496425,
+    "lon_max": 126.5187485925,
+    "lat_min": 4.043891182500001,
+    "lat_max": 6.094723695500001
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000tlrj",
+  "job_id": "m_59_269_km_sse_of_dunhuang_china-D077",
+  "event_title": "M 5.6 - 269 km SSE of Dunhuang, China",
+  "orbit": "descending",
+  "track": "077",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_59_269_km_sse_of_dunhuang_china_us6000tlrj/S1-COSEIS_SAR_UR-D-R-077-tops-20260827_20260815-234324-00093E_00037N-PP-53b5-v1_0_0/S1-COSEIS_SAR_UR-D-R-077-tops-20260827_20260815-234324-00093E_00037N-PP-53b5-v1_0_0.nc",
+  "stats": {
+    "min": -0.0638522356748581,
+    "max": 0.2155623733997345,
+    "mean": 0.0018721042748269911,
+    "std": 0.027738763046795886
+  },
+  "bounds": {
+    "lon_min": 93.30364947849999,
+    "lon_max": 96.59698149449999,
+    "lat_min": 36.8888512445,
+    "lat_max": 38.8630171215
+  }
+}

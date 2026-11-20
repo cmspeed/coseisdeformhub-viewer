@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000tl6a",
+  "job_id": "m_55_76_km_n_of_ruteng_indonesia-A112",
+  "event_title": "M 5.5 - 78 km N of Ruteng, Indonesia",
+  "orbit": "ascending",
+  "track": "112",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/URGENT_RESPONSE/2026/m_55_76_km_n_of_ruteng_indonesia_us6000tl6a/S1-COSEIS_SAR_UR-A-R-112-tops-20260818_20260806-101641-00120E_00009S-PP-ff44-v1_0_0/S1-COSEIS_SAR_UR-A-R-112-tops-20260818_20260806-101641-00120E_00009S-PP-ff44-v1_0_0.nc",
+  "stats": {
+    "min": -0.0795402005314827,
+    "max": 0.44151002168655396,
+    "mean": 0.14989839152740425,
+    "std": 0.07067861952028448
+  },
+  "bounds": {
+    "lon_min": 120.2329161735,
+    "lon_max": 122.9087484365,
+    "lat_min": -8.5669423065,
+    "lat_max": -6.5786097685
+  }
+}
